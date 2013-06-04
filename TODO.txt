@@ -1,0 +1,9 @@
+  - l'en tête est un peu grand et un peu vide (mais je sais pas trop quoi en faire)
+  - les couleurs un peu rouges font bizarre, ça manque un peu de contraste entre le texte et le fond, pareil pour le box-shadow autour de .groupe-lettre (d'ailleurs pourquoi box-shadow plutôt que border?)
+  - le contraste rouge/vert doit pas etre terrible pour les daltoniens
+  - "document.creeElement" = document.createElement est un bon easter egg :)
+  - tu peux splitter le js et le css dans leur fichier (cache friendly)
+  - des liens vers chaque lettre de l'alphabet peuvent être utiles
+  - tu peux éventuellement ajouter une feature inversion de l'annuaire (trier par clef françaises). OK en fait c'est fait mais c'est un peu confusant, on voit pas qu'il y a 2 listes. Ajouter un lien en haut ou un switch pour changer.
+
+suggestion: un sous-titre en forme de définition. Définition de bitoduc, par ex.
