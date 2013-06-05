@@ -1,0 +1,68 @@
+body
+{
+    background: #dfd5e5;
+}
+
+h1, h2, h3
+{
+    color: #000020;
+}
+
+h3
+{
+    margin-left: -10px;
+    margin-right: 0px; 
+    margin-top: 10px; 
+    margin-bottom: 10px;                
+    text-decoration: none;
+}
+
+#tout
+{
+    font-family: Georgia, “Nimbus Roman No9 L”, serif;
+     margin-left: auto;
+     margin-right: auto;
+     width: 800px;
+     background-color: #fff5f5;
+     padding: 50px;
+     box-shadow: 0px 0px 10px 0px #d8d8d8;
+}
+
+
+.groupe-lettre
+{
+    margin: 10px;
+    background-color: #fff5f5;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 5px 0px #d0d0d0;
+}
+
+.definition
+{
+    padding: 1px 2px 1px 2px;
+}
+
+.definition
+{
+    margin-left: 10px;
+}
+
+.mot-francais
+{
+    color: #208f20;
+}
+
+.mot-anglais
+{
+    color: #905050;
+}
+
+#intro
+{
+    font-size: larger;
+    color: #905050;
+    margin: 50px;
+}
