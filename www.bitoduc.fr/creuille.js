@@ -1,3 +1,29 @@
+function trouveElement(id)
+{
+    return document.getElementById(id);
+}
+
+function obtenirLAttribut(element, attribut)
+{
+    return element.getAttribute(attribut);
+}
+
+function definirLAttribut(element, attribut, valeur)
+{
+    return element.setAttribute(attribut, valeur);
+}
+
+function changeDeSens(window)
+{
+    var element = trouveElement('mots')
+    var langueDesClefsActuelle = obtenirLAttribut(element, 'data-langue');
+    var autre = {'anglais': 'francais',
+                 'francais': 'anglais'};
+    var langueDesClefsNouvelle = autre[langueDesClefsActuelle];
+    definirLAttribut(element, 'data-langue', langueDesClefsNouvelle);
+    construitListe(window)
+}
+
 function construitListe(window)
 {
     var document = window.document;        
@@ -78,11 +104,6 @@ function construitListe(window)
         {anglais: 'tweet', francais: 'gazouilli'}
     ];
 
-    function trouveElement(id)
-    {
-        return document.getElementById(id);
-    }
-
     function cache(e)
     {
         e.style.visibility = 'hidden';
@@ -96,10 +117,11 @@ function construitListe(window)
     var tous_les_mots = vrais_mots.concat(faux_mots);
 
     var i;
-    var noeudFRversANG = trouveElement('francais_vers_anglais');
-    var noeudANGversFR = trouveElement('anglais_vers_francais');
-    var lettresFRversANG = new Array(26);
-    var lettresANGversFR = new Array(26);
+    var lien = trouveElement('lienChange');
+    var index = trouveElement('index');
+    var mots = trouveElement('mots');
+    var langueDesClefs = obtenirLAttribut(mots, 'data-langue');
+    var lettres = new Array(26);
     var noeud;        
 
     function enleveLesAccents(s) {
@@ -107,23 +129,31 @@ function construitListe(window)
         return s;
     }
 
+    var lienFR = '<span class="mot-francais">Français</span>';
+    var lienANG = '<span class="mot-anglais">Anglais</span>';
+    var lienSource = lienFR;
+    var lienDestination = lienANG;
+    if (langueDesClefs === 'anglais') {
+        lienSource = lienANG;
+        lienDestination = lienFR;
+    }
+    lien.innerHTML = lienSource + ' &rarr; ' + lienDestination;
+
+    mots.innerHTML = '';
+    index.innerHTML = '';
+
 
     for (i = 0; i < 26; ++i) {
 
         var lettre = String.fromCharCode(65 + i);
-        lettresFRversANG[i] = noeud = document.creeElement('div');
+
+        lettres[i] = noeud = document.creeElement('div');
         noeud.className = 'groupe-lettre';
         noeud.enfants = 0;
-
+        var ancre = document.creeElement('a');
+        ancre.name = lettre;
+        noeud.appendChild(ancre);
         var titre = document.creeElement('h3');
-        titre.innerHTML = lettre;
-        noeud.appendChild(titre);
-        
-
-        lettresANGversFR[i] = noeud = document.creeElement('div');
-        noeud.className = 'groupe-lettre';
-        noeud.enfants = 0;
-        titre = document.creeElement('h3');
         titre.innerHTML = lettre;
         noeud.appendChild(titre);            
     }
@@ -144,31 +174,33 @@ function construitListe(window)
         noeud = document.createElement('div');
         noeud.className = 'definition';
 
-        noeud.innerHTML = '· <span class="mot-anglais"> ' + mot.anglais + ' </span> : ' 
-                        + '<span class="mot-francais">' + mot.francais + "</span>";
-        var indice = indiceDeLaPremiereLettre(mot.anglais);
+        var spanAnglais = '<span class="mot-anglais"> ' + mot.anglais + ' </span>';
+        var spanFrancais = '<span class="mot-francais">' + mot.francais + '</span>';
 
-        lettresANGversFR[indice].appendChild(noeud);
-        lettresANGversFR[indice].enfants++;
+        var spanClef = spanFrancais;
+        var spanValeur = spanAnglais;
+        var indice = indiceDeLaPremiereLettre(mot.francais);
+        if (langueDesClefs === 'anglais') {
+            spanClef = spanAnglais;
+            spanValeur = spanFrancais;
+            indice = indiceDeLaPremiereLettre(mot.anglais);
+        }
 
-        noeud = document.createElement('div');
-        noeud.className = 'definition';
-        noeud.innerHTML = mot.francais + ' &rarr; ' + mot.anglais;
-        noeud.innerHTML = '· <span class="mot-francais"> ' + mot.francais + '</span> : '
-                        + '<span class="mot-anglais">' + mot.anglais + ' </span>';
+        noeud.innerHTML = '· ' + spanClef + ' : ' + spanValeur;
 
-        indice = indiceDeLaPremiereLettre(mot.francais);
-        lettresFRversANG[indice].appendChild(noeud);
-        lettresFRversANG[indice].enfants++;
+        lettres[indice].appendChild(noeud);
+        lettres[indice].enfants++;
     }
 
     for (i = 0; i < 26; ++i) {
-        noeud = lettresFRversANG[i];
-        if (noeud.enfants > 1)
-            noeudFRversANG.appendChild(noeud);
-
-        noeud = lettresANGversFR[i];
-        if (noeud.enfants > 1)
-            noeudANGversFR.appendChild(noeud);
+        var lettre = String.fromCharCode(65 + i);
+        noeud = lettres[i];
+        if (noeud.enfants > 1) {
+            mots.appendChild(noeud);
+            var lettreIndex = document.creeElement('a');
+            lettreIndex.href = '#' + lettre;
+            lettreIndex.innerHTML = lettre;
+            index.appendChild(lettreIndex);
+        }
     }
 }
