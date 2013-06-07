@@ -118,6 +118,7 @@ function construitListe(window)
 
     var i;
     var lien = trouveElement('lienChange');
+    var index = trouveElement('index');
     var mots = trouveElement('mots');
     var langueDesClefs = obtenirLAttribut(mots, 'data-langue');
     var lettres = new Array(26);
@@ -139,6 +140,7 @@ function construitListe(window)
     lien.innerHTML = lienSource + ' &rarr; ' + lienDestination;
 
     mots.innerHTML = '';
+    index.innerHTML = '';
 
 
     for (i = 0; i < 26; ++i) {
@@ -148,6 +150,9 @@ function construitListe(window)
         lettres[i] = noeud = document.creeElement('div');
         noeud.className = 'groupe-lettre';
         noeud.enfants = 0;
+        var ancre = document.creeElement('a');
+        ancre.name = lettre;
+        noeud.appendChild(ancre);
         var titre = document.creeElement('h3');
         titre.innerHTML = lettre;
         noeud.appendChild(titre);            
@@ -188,8 +193,14 @@ function construitListe(window)
     }
 
     for (i = 0; i < 26; ++i) {
+        var lettre = String.fromCharCode(65 + i);
         noeud = lettres[i];
-        if (noeud.enfants > 1)
+        if (noeud.enfants > 1) {
             mots.appendChild(noeud);
+            var lettreIndex = document.creeElement('a');
+            lettreIndex.href = '#' + lettre;
+            lettreIndex.innerHTML = lettre;
+            index.appendChild(lettreIndex);
+        }
     }
 }
