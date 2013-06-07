@@ -66,3 +66,22 @@ h3
     color: #905050;
     margin: 50px;
 }
+
+#index
+{
+    text-align: center;
+}
+
+#index a
+{
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+    margin-right: 5px;
+    position:relative;
+}
+
+#index a:hover
+{
+    background-color: #999;
+}
