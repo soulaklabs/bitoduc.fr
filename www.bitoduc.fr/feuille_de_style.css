@@ -67,6 +67,13 @@ h3
     margin: 50px;
 }
 
+#subtitle
+{
+    color: #101010;
+    margin-left: 100px;
+    width : 50%;
+}
+
 #index
 {
     text-align: center;

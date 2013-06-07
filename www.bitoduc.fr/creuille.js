@@ -91,7 +91,15 @@ function construitListe(window)
         {anglais: 'byte', francais: 'octet'},
         {anglais: 'malware', francais: 'maliciel'},
         {anglais: 'namespace', francais: 'espace de noms'},
-        {anglais: 'stylesheet (CSS)', francais: 'feuille de style'}
+        {anglais: 'stylesheet (CSS)', francais: 'feuille de style'},
+        {anglais: 'middleware', francais: 'intergiciel'},
+        {anglais: 'webmaster', francais: 'webmestre'},
+        {anglais: 'Web', francais: 'toile'},
+        {anglais: 'Computer Science (CS)', francais: 'science informatique'},
+        {anglais: 'program counter', francais: 'compteur ordinal'},
+        {anglais: 'hub', francais: 'concentrateur'},
+        {anglais: 'byte', francais: 'octet'},
+        {anglais: 'backdoor', francais: 'porte dérobée'}
     ];
 
     var faux_mots = [
