@@ -91,7 +91,7 @@ function construitListe(window)
         {anglais: 'byte', francais: 'octet'},
         {anglais: 'malware', francais: 'maliciel'},
         {anglais: 'namespace', francais: 'espace de noms'},
-        {anglais: 'stylesheet (CSS)', francais: 'feuille de style'},
+        {anglais: 'Cascaded Style Sheets (CSS)', francais: 'feuilles de style en cascade'},
         {anglais: 'middleware', francais: 'intergiciel'},
         {anglais: 'webmaster', francais: 'webmestre'},
         {anglais: 'Web', francais: 'toile'},
@@ -99,7 +99,8 @@ function construitListe(window)
         {anglais: 'program counter', francais: 'compteur ordinal'},
         {anglais: 'hub', francais: 'concentrateur'},
         {anglais: 'byte', francais: 'octet'},
-        {anglais: 'backdoor', francais: 'porte dérobée'}
+        {anglais: 'backdoor', francais: 'porte dérobée'},
+        {anglais: 'hyperlink', francais: 'hyperlien'}
     ];
 
     var faux_mots = [
@@ -109,7 +110,8 @@ function construitListe(window)
         {anglais: 'RTFM (Read The Fucking Manual)', francais: 'LPDM (Lis le Putain De Manuel)'},
         {anglais: 'DRY (Don\'t Repeat Yourself)', francais: 'NTRP (Ne Te Répète Pas)'},
         {anglais: 'hashtag', francais: 'mot-dièse (ou diestiquette)'},
-        {anglais: 'tweet', francais: 'gazouilli'}
+        {anglais: 'tweet', francais: 'gazouilli'},
+        {anglais: 'lolcat', francais: 'chatmusant'},
     ];
 
     function cache(e)
