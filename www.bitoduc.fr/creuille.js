@@ -98,7 +98,6 @@ function construitListe(window)
         {anglais: 'Computer Science (CS)', francais: 'science informatique'},
         {anglais: 'program counter', francais: 'compteur ordinal'},
         {anglais: 'hub', francais: 'concentrateur'},
-        {anglais: 'byte', francais: 'octet'},
         {anglais: 'backdoor', francais: 'porte dérobée'}
     ];
 
