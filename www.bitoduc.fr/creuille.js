@@ -61,7 +61,7 @@ function construitListe(window)
         {anglais: 'backport', francais: 'rétroportage'},
         {anglais: 'rolling release', francais: 'publication continue'},
         {anglais: 'checksum', francais: 'somme de contrôle'},
-        {anglais: 'repositery', francais: 'dépôt'},
+        {anglais: 'repository', francais: 'dépôt'},
         {anglais: 'version control system', francais: 'logiciel de gestion de versions'},
         {anglais: 'lazy evaluation', francais: 'évaluation paresseuse'},
         {anglais: 'upload', francais: 'téléversement'},
@@ -111,6 +111,7 @@ function construitListe(window)
         {anglais: 'hashtag', francais: 'mot-dièse (ou diestiquette)'},
         {anglais: 'tweet', francais: 'gazouilli'},
         {anglais: 'lolcat', francais: 'chatmusant'},
+        {anglais: 'smartphone', francais: 'malinphone'},
     ];
 
     function cache(e)
