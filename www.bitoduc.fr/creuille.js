@@ -100,7 +100,9 @@ function construitListe(window)
         {anglais: 'hub', francais: 'concentrateur'},
         {anglais: 'backdoor', francais: 'porte dérobée'},
         {anglais: 'hyperlink', francais: 'hyperlien'},
-        {anglais: 'fork', francais: 'scission'}
+        {anglais: 'fork', francais: 'scission'},
+        {anglais: 'watchdog', francais: 'chien de garde'},
+        {anglais: 'ROM (Read-Only Memory)', francais: 'mémoire morte'}
     ];
 
     var faux_mots = [
