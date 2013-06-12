@@ -32,7 +32,7 @@ function construitListe(window)
     var vrais_mots = [
         {anglais: 'dangling pointer', francais: 'pointeur fou'},
         {anglais: 'URL'             , francais: 'adresse réticulaire'},
-        {anglais: 'GC'              , francais: 'glaneur de cellule'},
+        {anglais: 'GC'              , francais: 'ramasse-miettes, glaneur de cellule'},
         {anglais: 'pipeline'        , francais: 'bitoduc'},
         {anglais: 'TL;DR (Too Long Didn\'t Read)' , francais: 'TLAL (Trop Long A Lire)'},
         {anglais: 'framework', francais: 'cadriciel'},
