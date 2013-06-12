@@ -61,7 +61,7 @@ function construitListe(window)
         {anglais: 'backport', francais: 'rétroportage'},
         {anglais: 'rolling release', francais: 'publication continue'},
         {anglais: 'checksum', francais: 'somme de contrôle'},
-        {anglais: 'repositery', francais: 'dépôt'},
+        {anglais: 'repository', francais: 'dépôt'},
         {anglais: 'version control system', francais: 'logiciel de gestion de versions'},
         {anglais: 'lazy evaluation', francais: 'évaluation paresseuse'},
         {anglais: 'upload', francais: 'téléversement'},
@@ -91,7 +91,7 @@ function construitListe(window)
         {anglais: 'byte', francais: 'octet'},
         {anglais: 'malware', francais: 'maliciel'},
         {anglais: 'namespace', francais: 'espace de noms'},
-        {anglais: 'Cascaded Style Sheets (CSS)', francais: 'feuilles de style en cascade'},
+        {anglais: 'Cascading Style Sheets (CSS)', francais: 'feuilles de style en cascade'},
         {anglais: 'middleware', francais: 'intergiciel'},
         {anglais: 'webmaster', francais: 'webmestre'},
         {anglais: 'Web', francais: 'toile'},
@@ -99,7 +99,8 @@ function construitListe(window)
         {anglais: 'program counter', francais: 'compteur ordinal'},
         {anglais: 'hub', francais: 'concentrateur'},
         {anglais: 'backdoor', francais: 'porte dérobée'},
-        {anglais: 'hyperlink', francais: 'hyperlien'}
+        {anglais: 'hyperlink', francais: 'hyperlien'},
+        {anglais: 'fork', francais: 'scission'}
     ];
 
     var faux_mots = [
@@ -111,6 +112,7 @@ function construitListe(window)
         {anglais: 'hashtag', francais: 'mot-dièse (ou diestiquette)'},
         {anglais: 'tweet', francais: 'gazouilli'},
         {anglais: 'lolcat', francais: 'chatmusant'},
+        {anglais: 'smartphone', francais: 'malinphone'},
     ];
 
     function cache(e)
