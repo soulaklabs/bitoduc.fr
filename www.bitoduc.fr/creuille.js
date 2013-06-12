@@ -91,7 +91,7 @@ function construitListe(window)
         {anglais: 'byte', francais: 'octet'},
         {anglais: 'malware', francais: 'maliciel'},
         {anglais: 'namespace', francais: 'espace de noms'},
-        {anglais: 'Cascaded Style Sheets (CSS)', francais: 'feuilles de style en cascade'},
+        {anglais: 'Cascading Style Sheets (CSS)', francais: 'feuilles de style en cascade'},
         {anglais: 'middleware', francais: 'intergiciel'},
         {anglais: 'webmaster', francais: 'webmestre'},
         {anglais: 'Web', francais: 'toile'},
