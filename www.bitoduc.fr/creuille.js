@@ -99,7 +99,8 @@ function construitListe(window)
         {anglais: 'program counter', francais: 'compteur ordinal'},
         {anglais: 'hub', francais: 'concentrateur'},
         {anglais: 'backdoor', francais: 'porte dérobée'},
-        {anglais: 'hyperlink', francais: 'hyperlien'}
+        {anglais: 'hyperlink', francais: 'hyperlien'},
+        {anglais: 'fork', francais: 'scission'}
     ];
 
     var faux_mots = [
@@ -112,6 +113,7 @@ function construitListe(window)
         {anglais: 'tweet', francais: 'gazouilli'},
         {anglais: 'lolcat', francais: 'chatmusant'},
         {anglais: 'smartphone', francais: 'malinphone'},
+        {anglais: 'GitHub', francais: 'concentrateur à la con'}
     ];
 
     function cache(e)
