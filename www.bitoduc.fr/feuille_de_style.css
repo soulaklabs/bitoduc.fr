@@ -99,3 +99,8 @@ h3
     top: 0; right: 0;
     border: 0;
 }
+
+a:visited
+{
+    color: inherit;
+}
