@@ -92,3 +92,10 @@ h3
 {
     background-color: #999;
 }
+
+.bouton-gh
+{
+    position: absolute;
+    top: 0; right: 0;
+    border: 0;
+}
