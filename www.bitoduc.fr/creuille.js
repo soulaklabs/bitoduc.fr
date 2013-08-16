@@ -34,7 +34,7 @@ function construitListe(window)
         {anglais: 'URL'             , francais: 'adresse réticulaire'},
         {anglais: 'GC'              , francais: 'ramasse-miettes, glaneur de cellule'},
         {anglais: 'pipeline'        , francais: 'bitoduc'},
-        {anglais: 'TL;DR (Too Long Didn\'t Read)' , francais: 'TLAL (Trop Long A Lire)'},
+        {anglais: 'TL;DR (Too Long; Didn\'t Read)' , francais: 'TL;PL (Trop Long; Pas Lu)'},
         {anglais: 'framework', francais: 'cadriciel'},
         {anglais: 'shareware', francais: 'partagiciel'},
         {anglais: 'freeware', francais: 'gratuiciel'},
