@@ -118,7 +118,8 @@ function construitListe(window)
         {anglais: 'tweet', francais: 'gazouilli'},
         {anglais: 'lolcat', francais: 'chatmusant'},
         {anglais: 'smartphone', francais: 'malinphone'},
-        {anglais: 'walled garden', francais: 'jardin clos'}
+        {anglais: 'walled garden', francais: 'jardin secret, communauté prison'},
+        {anglais: 'favicon', francais: 'favorimage'}
     ];
 
     function cache(e)
