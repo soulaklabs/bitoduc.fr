@@ -118,6 +118,7 @@ function construitListe(window)
         {anglais: 'tweet', francais: 'gazouilli'},
         {anglais: 'lolcat', francais: 'chatmusant'},
         {anglais: 'smartphone', francais: 'malinphone'},
+        {anglais: 'walled garden', francais: 'jardin clos'}
     ];
 
     function cache(e)
