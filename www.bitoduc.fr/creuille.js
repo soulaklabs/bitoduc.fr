@@ -105,7 +105,8 @@ function construitListe(window)
         {anglais: 'hyperlink', francais: 'hyperlien'},
         {anglais: 'fork', francais: 'scission'},
         {anglais: 'watchdog', francais: 'chien de garde'},
-        {anglais: 'ROM (Read-Only Memory)', francais: 'mémoire morte'}
+        {anglais: 'ROM (Read-Only Memory)', francais: 'mémoire morte'},
+        {anglais: 'deadlock', francais: 'étreinte fatale'},
     ];
 
     var faux_mots = [
