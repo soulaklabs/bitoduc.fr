@@ -107,6 +107,7 @@ function construitListe(window)
         {anglais: 'watchdog', francais: 'chien de garde'},
         {anglais: 'ROM (Read-Only Memory)', francais: 'mémoire morte'},
         {anglais: 'deadlock', francais: 'étreinte fatale'},
+        {anglais: 'refactoring', francais: 'réusinage'},
     ];
 
     var faux_mots = [
