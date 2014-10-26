@@ -26,7 +26,7 @@ function changeDeSens(window)
 
 function construitListe(window)
 {
-    var document = window.document;        
+    var document = window.document;
     document.creeElement = document.createElement;
 
     var vrais_mots = [
@@ -81,7 +81,7 @@ function construitListe(window)
         {anglais: 'bloatware', francais: 'boufficiel'},
         {anglais: 'spyware', francais: 'espiogiciel'},
         {anglais: 'flood', francais: 'matraquage'},
-        {anglais: 'glue code', francais: 'code ciment'},            
+        {anglais: 'glue code', francais: 'code ciment'},
         {anglais: 'proxy', francais: 'mandataire'},
         {anglais: 'reverse proxy', francais: 'mandataire inverse'},
         {anglais: 'tutorial', francais: 'didacticiel'},
@@ -108,6 +108,7 @@ function construitListe(window)
         {anglais: 'ROM (Read-Only Memory)', francais: 'mémoire morte'},
         {anglais: 'deadlock', francais: 'étreinte fatale'},
         {anglais: 'refactoring', francais: 'réusinage'},
+        {anglais: 'digital', francais: 'numérique'},
     ];
 
     var faux_mots = [
@@ -142,7 +143,7 @@ function construitListe(window)
     var mots = trouveElement('mots');
     var langueDesClefs = obtenirLAttribut(mots, 'data-langue');
     var lettres = new Array(26);
-    var noeud;        
+    var noeud;
 
     function enleveLesAccents(s) {
         s = s.replace("é", "e");
@@ -175,7 +176,7 @@ function construitListe(window)
         noeud.appendChild(ancre);
         var titre = document.creeElement('h3');
         titre.innerHTML = lettre;
-        noeud.appendChild(titre);            
+        noeud.appendChild(titre);
     }
 
     // renvoie un nombre entre 0 et 25
@@ -190,7 +191,7 @@ function construitListe(window)
     for (i = 0; i < tous_les_mots.length; ++i) {
 
         var mot = tous_les_mots[i];
-        
+
         noeud = document.createElement('div');
         noeud.className = 'definition';
 
