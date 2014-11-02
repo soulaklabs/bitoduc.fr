@@ -109,6 +109,7 @@ function construitListe(window)
         {anglais: 'deadlock', francais: 'étreinte fatale'},
         {anglais: 'refactoring', francais: 'réusinage'},
         {anglais: 'digital', francais: 'numérique'},
+        {anglais: 'tag', francais: 'étiquette'}
     ];
 
     var faux_mots = [
@@ -117,7 +118,7 @@ function construitListe(window)
         {anglais: 'NIH (Not Invented Here)', francais: 'PII (Pas Inventé Ici)'},
         {anglais: 'RTFM (Read The Fucking Manual)', francais: 'LPDM (Lis le Putain De Manuel)'},
         {anglais: 'DRY (Don\'t Repeat Yourself)', francais: 'NTRP (Ne Te Répète Pas)'},
-        {anglais: 'hashtag', francais: 'mot-dièse (ou diestiquette)'},
+        {anglais: 'hashtag', francais: 'croisiquette'},
         {anglais: 'tweet', francais: 'gazouillis'},
         {anglais: 'lolcat', francais: 'chatmusant'},
         {anglais: 'smartphone', francais: 'malinphone'},
