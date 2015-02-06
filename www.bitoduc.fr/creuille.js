@@ -121,9 +121,13 @@ function construitListe(window)
         {anglais: 'hashtag', francais: 'croisiquette'},
         {anglais: 'tweet', francais: 'gazouillis'},
         {anglais: 'lolcat', francais: 'chatmusant'},
+        {anglais: 'empowerment', francais: 'empouvoirement'},
+        {anglais: 'to spoil', francais: 'divulgâcher'},
         {anglais: 'smartphone', francais: 'malinphone'},
         {anglais: 'walled garden', francais: 'jardin secret, communauté prison'},
         {anglais: 'favicon', francais: 'favorimage'}
+        {anglais: 'stand-up meeting', francais: 'réunion debout'}
+        {anglais: 'commit', francais: 'atome de code'}
     ];
 
     function cache(e)
