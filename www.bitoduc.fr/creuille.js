@@ -109,7 +109,9 @@ function construitListe(window)
         {anglais: 'deadlock', francais: 'étreinte fatale'},
         {anglais: 'refactoring', francais: 'réusinage'},
         {anglais: 'digital', francais: 'numérique'},
-        {anglais: 'tag', francais: 'étiquette'}
+        {anglais: 'tag', francais: 'étiquette'},
+        {anglais: 'desktop', francais: 'ordinateur de bureau'},
+        {anglais: 'laptop', francais: 'ordinateur de giron'}
     ];
 
     var faux_mots = [
