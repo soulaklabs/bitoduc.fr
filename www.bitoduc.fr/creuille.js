@@ -109,7 +109,8 @@ function construitListe(window)
         {anglais: 'deadlock', francais: 'étreinte fatale'},
         {anglais: 'refactoring', francais: 'réusinage'},
         {anglais: 'digital', francais: 'numérique'},
-        {anglais: 'tag', francais: 'étiquette'}
+        {anglais: 'tag', francais: 'étiquette'},
+        {anglais: 'desktop', francais: 'ordinateur de bureau'}
     ];
 
     var faux_mots = [
@@ -127,7 +128,8 @@ function construitListe(window)
         {anglais: 'walled garden', francais: 'jardin secret, communauté prison'},
         {anglais: 'favicon', francais: 'favorimage'},
         {anglais: 'stand-up meeting', francais: 'réunion debout'},
-        {anglais: 'commit', francais: 'atome de code'}
+        {anglais: 'commit', francais: 'atome de code'},
+        {anglais: 'laptop', francais: 'ordinateur de giron'}
     ];
 
     function cache(e)
