@@ -129,7 +129,8 @@ function construitListe(window)
         {anglais: 'favicon', francais: 'favorimage'},
         {anglais: 'stand-up meeting', francais: 'réunion debout'},
         {anglais: 'commit', francais: 'atome de code'},
-        {anglais: 'laptop', francais: 'ordinateur de giron'}
+        {anglais: 'laptop', francais: 'ordinateur de giron'},
+        {anglais: 'cryptoparty', francais: 'chiffrofête'}
     ];
 
     function cache(e)
