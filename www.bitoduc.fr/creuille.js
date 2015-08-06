@@ -110,7 +110,43 @@ function construitListe(window)
         {anglais: 'refactoring', francais: 'réusinage'},
         {anglais: 'digital', francais: 'numérique'},
         {anglais: 'tag', francais: 'étiquette'},
-        {anglais: 'desktop', francais: 'ordinateur de bureau'}
+        {anglais: 'desktop', francais: 'ordinateur de bureau'},
+        {anglais: 'to deface', francais: 'défigurer'},
+        {anglais: 'ASLR', francais: "Disposition Stochastique de l'espace d'addressage"},
+        {anglais: 'back-end services', francais: 'services dorsaux' },
+        {anglais: 'back office', francais: 'arrière-guichet' },
+        {anglais: 'boot', francais: 'amorçage' },
+        {anglais: 'BYOD (Bring Your Own Device)', francais: 'AVEC (Apportez Votre Equipement personnel de Communication)' },
+        {anglais: 'cache memory', francais: 'antémémoire' },
+        {anglais: 'chipset', francais: 'jeu de puces' },
+        {anglais: 'cookie', francais: 'témoin de connexion' },
+        {anglais: 'firmware', francais: 'micrologiciel' },
+        {anglais: 'FPGA (Field-Programmable Gate Array)', francais: 'CIPP (Circuit Intégré Prédiffusé Programmable)' },
+        {anglais: 'front office', francais: 'guichet' },
+        {anglais: 'fuzzing', francais: 'frelatage en masse' },
+        {anglais: 'fuzzer', francais: "générateur d'anomalies" },
+        {anglais: 'hacked', francais: "intrusé" },
+        {anglais: 'hacker', francais: "fouineur" },
+        {anglais: 'hash', francais: "condensat" },
+        {anglais: 'hash table', francais: "tableau à adressage dispersé" },
+        {anglais: 'heap spray', francais: "pulvérisation du tas" },
+        {anglais: 'instruction pipeline', francais: "instruoduc" },
+        {anglais: 'lurker', francais: "fureteur" },
+        {anglais: 'man-in-the-middle attack', francais: "attaque de l'homme du milieu" },
+        {anglais: 'monkey-in-the-middle attack', francais: "attaque du singe intercepteur" },
+        {anglais: 'obfuscation', francais: "noircissement de code" },
+        {anglais: 'pharming', francais: "devoiement" },
+        {anglais: 'phishing attack', francais: "attaque par filoutage" },
+        {anglais: 'return oriented programming', francais: "Exploitation focalisée sur le retour" },        
+        {anglais: 'reverse-engineering', francais: "Ingénierie à rebours" },
+        {anglais: 'to reverse', francais: "détricoter" },
+        {anglais: 'shell code', francais: "code encoquillé" },
+        {anglais: 'SoC (System-on-Chip)', francais: "puce-système" },
+        {anglais: 'smart grids', francais: "grilles malines" },
+        {anglais: 'stack cookie', francais: "biscuit de pile" },
+        {anglais: 'thumbnail', francais: "imagette" },
+        {anglais: 'Web cache', francais: "cache-toile" },
+        {anglais: 'XSS (Cross Site Scripting)', francais: "ICID (Injection de Code Indirect à Distance)" }
     ];
 
     var faux_mots = [
@@ -130,7 +166,8 @@ function construitListe(window)
         {anglais: 'stand-up meeting', francais: 'réunion debout'},
         {anglais: 'commit', francais: 'atome de code'},
         {anglais: 'laptop', francais: 'ordinateur de giron'},
-        {anglais: 'cryptoparty', francais: 'chiffrofête'}
+        {anglais: 'cryptoparty', francais: 'chiffrofête'},
+        {anglais: 'bitcoin', francais: 'cybersou' }
     ];
 
     function cache(e)
