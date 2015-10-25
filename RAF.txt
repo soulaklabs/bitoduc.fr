@@ -1,3 +1,0 @@
-  - l'en tête est un peu grand et un peu vide (mais je sais pas trop quoi en faire)
-  - les couleurs un peu rouges font bizarre, ça manque un peu de contraste entre le texte et le fond, pareil pour le box-shadow autour de .groupe-lettre (d'ailleurs pourquoi box-shadow plutôt que border?)
-  - le contraste rouge/vert doit pas etre terrible pour les daltoniens
