@@ -85,7 +85,7 @@ function construitListe(window)
         {anglais: 'proxy', francais: 'mandataire'},
         {anglais: 'reverse proxy', francais: 'mandataire inverse'},
         {anglais: 'tutorial', francais: 'didacticiel'},
-        {anglais: 'browser', francais: 'butineur'},
+        {anglais: 'browser', francais: 'navigateur'},
         {anglais: 'BBS (Bulletin Board System)', francais: 'babillard électronique'},
         {anglais: 'applet', francais: 'appliquette'},
         {anglais: 'cloud computing', francais: 'infonuagique'},
