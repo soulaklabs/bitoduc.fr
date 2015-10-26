@@ -166,8 +166,7 @@ function construitListe(window)
         {anglais: 'stand-up meeting', francais: 'réunion debout'},
         {anglais: 'commit', francais: 'atome de code'},
         {anglais: 'laptop', francais: 'ordinateur de giron'},
-        {anglais: 'cryptoparty', francais: 'chiffrofête'},
-        {anglais: 'bitcoin', francais: 'cybersou' }
+        {anglais: 'cryptoparty', francais: 'chiffrofête'}
     ];
 
     function cache(e)
