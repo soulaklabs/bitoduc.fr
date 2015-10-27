@@ -115,11 +115,15 @@ function construitListe(window)
         {anglais: 'ASLR', francais: "Disposition Stochastique de l'espace d'addressage"},
         {anglais: 'back-end services', francais: 'services dorsaux' },
         {anglais: 'back office', francais: 'arrière-guichet' },
+        {anglais: 'big data', francais: 'mégadonnées' },
         {anglais: 'boot', francais: 'amorçage' },
         {anglais: 'BYOD (Bring Your Own Device)', francais: 'AVEC (Apportez Votre Equipement personnel de Communication)' },
         {anglais: 'cache memory', francais: 'antémémoire' },
         {anglais: 'chipset', francais: 'jeu de puces' },
+        {anglais: 'cluster', francais: 'grappe' },
         {anglais: 'cookie', francais: 'témoin de connexion' },
+        {anglais: 'database', francais: 'base de données' },
+        {anglais: 'device', francais: 'appareil' },
         {anglais: 'firmware', francais: 'micrologiciel' },
         {anglais: 'FPGA (Field-Programmable Gate Array)', francais: 'CIPP (Circuit Intégré Prédiffusé Programmable)' },
         {anglais: 'front office', francais: 'guichet' },
@@ -140,6 +144,8 @@ function construitListe(window)
         {anglais: 'return oriented programming', francais: "Exploitation focalisée sur le retour" },        
         {anglais: 'reverse-engineering', francais: "Ingénierie à rebours" },
         {anglais: 'to reverse', francais: "détricoter" },
+        {anglais: 'scale', francais: 'passe à l’échelle' },
+        {anglais: 'scaling', francais: 'passage à l’échelle' },
         {anglais: 'shell code', francais: "code encoquillé" },
         {anglais: 'SoC (System-on-Chip)', francais: "puce-système" },
         {anglais: 'smart grids', francais: "grilles malines" },
@@ -150,6 +156,7 @@ function construitListe(window)
     ];
 
     var faux_mots = [
+        {anglais: 'buzzword', francais: 'mot à la mode'},
         {anglais: 'branch merging', francais: 'fusion de branches'},
         {anglais: 'pull-request', francais: 'fusiodemande'},
         {anglais: 'NIH (Not Invented Here)', francais: 'PII (Pas Inventé Ici)'},
