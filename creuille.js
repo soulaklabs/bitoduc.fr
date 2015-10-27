@@ -30,6 +30,7 @@ function construitListe(window)
     document.creeElement = document.createElement;
 
     var vrais_mots = [
+        {anglais: 'benchmark', francais: 'banc d\'essai'},
         {anglais: 'dangling pointer', francais: 'pointeur fou'},
         {anglais: 'URL'             , francais: 'adresse réticulaire'},
         {anglais: 'GC'              , francais: 'ramasse-miettes, glaneur de cellule'},
