@@ -142,6 +142,7 @@ function construitListe(window)
         {anglais: 'man-in-the-middle attack', francais: "attaque de l'homme du milieu" },
         {anglais: 'monkey-in-the-middle attack', francais: "attaque du singe intercepteur" },
         {anglais: 'obfuscation', francais: "noircissement de code" },
+        {anglais: 'parse', francais: "analyser" },
         {anglais: 'pharming', francais: "devoiement" },
         {anglais: 'phishing attack', francais: "attaque par filoutage" },
         {anglais: 'return oriented programming', francais: "Exploitation focalisée sur le retour" },        
