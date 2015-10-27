@@ -114,6 +114,7 @@ function construitListe(window)
         {anglais: 'desktop', francais: 'ordinateur de bureau'},
         {anglais: 'to deface', francais: 'défigurer'},
         {anglais: 'ASLR', francais: "Disposition Stochastique de l'espace d'addressage"},
+        {anglais: 'backport', francais: 'rétroportage' },
         {anglais: 'back-end services', francais: 'services dorsaux' },
         {anglais: 'back office', francais: 'arrière-guichet' },
         {anglais: 'big data', francais: 'mégadonnées' },
