@@ -30,7 +30,6 @@ function construitListe(window)
     document.creeElement = document.createElement;
 
     var vrais_mots = [
-        {anglais: 'benchmark', francais: 'banc d\'essai'},
         {anglais: 'dangling pointer', francais: 'pointeur fou'},
         {anglais: 'URL'             , francais: 'adresse réticulaire'},
         {anglais: 'GC'              , francais: 'ramasse-miettes, glaneur de cellule'},
@@ -114,7 +113,6 @@ function construitListe(window)
         {anglais: 'desktop', francais: 'ordinateur de bureau'},
         {anglais: 'to deface', francais: 'défigurer'},
         {anglais: 'ASLR', francais: "Disposition Stochastique de l'espace d'addressage"},
-        {anglais: 'backport', francais: 'rétroportage' },
         {anglais: 'back-end services', francais: 'services dorsaux' },
         {anglais: 'back office', francais: 'arrière-guichet' },
         {anglais: 'big data', francais: 'mégadonnées' },
@@ -144,6 +142,8 @@ function construitListe(window)
         {anglais: 'obfuscation', francais: "noircissement de code" },
         {anglais: 'pharming', francais: "devoiement" },
         {anglais: 'phishing attack', francais: "attaque par filoutage" },
+        {anglais: 'pull', francais: "tirage" },
+        {anglais: 'push', francais: "poussage" },
         {anglais: 'return oriented programming', francais: "Exploitation focalisée sur le retour" },        
         {anglais: 'reverse-engineering', francais: "Ingénierie à rebours" },
         {anglais: 'to reverse', francais: "détricoter" },
@@ -151,6 +151,7 @@ function construitListe(window)
         {anglais: 'scaling', francais: 'passage à l’échelle' },
         {anglais: 'shell code', francais: "code encoquillé" },
         {anglais: 'SoC (System-on-Chip)', francais: "puce-système" },
+        {anglais: 'string', francais: "chaine" },
         {anglais: 'smart grids', francais: "grilles malines" },
         {anglais: 'stack cookie', francais: "biscuit de pile" },
         {anglais: 'thumbnail', francais: "imagette" },
