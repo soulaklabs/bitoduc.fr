@@ -9,7 +9,10 @@
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
         <script type="text/javascript" src="creuille.js"></script>
         <script>
-          $( function() { construitListe(window); } );
+          $( function() {
+              construitListe(window);
+              $( "#lienChange" ).click( function() {changeDeSens(window);} );
+          });
         </script>
 
     </head>
@@ -44,7 +47,7 @@
 
                 <br/><br/>
                 <div>
-                    <a id="lienChange" href="#" onclick="changeDeSens(window)"></a>
+                    <a id="lienChange" href="#" ></a>
                 </div>
             </div>
 
