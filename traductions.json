@@ -148,7 +148,8 @@
         {"anglais": "to spoil", "francais": "divulgâcher"},
         {"anglais": "tweet", "francais": "gazouillis"},
         {"anglais": "walled garden", "francais": "jardin secret, communauté prison"},
-        {"anglais": "bot", "francais": "robot"}
+        {"anglais": "bot", "francais": "robot"},
+        {"anglais": "TIL (Today I Learnt)", "francais": "AJA (Aujourd'hui J'ai Appris)"}
     ]
 
 }
