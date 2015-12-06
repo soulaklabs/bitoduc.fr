@@ -1,5 +1,4 @@
-function changeDeSens(traductions)
-{
+function changeDeSens(traductions) {
     var langue = $( "#mots" ).attr("data-langue");
     var autre = {'anglais': 'francais',
                  'francais': 'anglais'};
@@ -7,7 +6,7 @@ function changeDeSens(traductions)
     construitListe(traductions);
 }
 
-function metAJourLienChange(langue){
+function metAJourLienChange(langue) {
     var de = ' <span class="mot-anglais">Anglais</span>  ';
     var vers = '<span class="mot-francais">Français</span>';
     var fleche = ' &rarr; ';
@@ -19,7 +18,7 @@ function metAJourLienChange(langue){
     $( "#lienChange" ).html(de + fleche  + vers);
 }
 
-function sansAccents(mot){
+function sansAccents(mot) {
     // Faute d'une bibliotheque unidecode, nous nous limitons aux lettres
     // accentuées du français.
     // https://fr.wikipedia.org/wiki/Diacritiques_utilisés_en_français
@@ -39,8 +38,7 @@ function sansAccents(mot){
         .replace("ü", "u");
 }
 
-function construitListe(traductions)
-{
+function construitListe(traductions) {
     var langue = $( "#mots" ).attr("data-langue");
 
     metAJourLienChange(langue);
