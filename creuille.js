@@ -7,7 +7,7 @@ function changeDeSens(traductions) {
 }
 
 function metAJourLienChange(langue) {
-    var de = ' <span class="mot-anglais">Anglais</span>  ';
+    var de = '<span class="mot-anglais">Anglais</span>';
     var vers = '<span class="mot-francais">Français</span>';
     var fleche = ' &rarr; ';
     if (langue == 'francais') {
@@ -73,7 +73,7 @@ function construitListe(traductions) {
                     );
         }
 
-        var cle = '<span class="mot-anglais"> ' + mot.anglais + ' </span>';
+        var cle = '<span class="mot-anglais">' + mot.anglais + '</span>';
         var val = '<span class="mot-francais">' + mot.francais + '</span>';
         if (langue == "francais") {
             var tmp = cle;
