@@ -53,23 +53,23 @@ function construitListe(traductions) {
     $( "#mots" ).html("");
     $( "#index" ).html("");
 
-    var lettreAlphabet = '';
+    var lettre = '';
     for (var i=0; i < traductions.length; i++) {
         var mot = traductions[i];
         var l = sansAccents(mot[langue]).charAt(0).toUpperCase();
 
-        if (l != lettreAlphabet) {
-            lettreAlphabet = l;
+        if (l != lettre) {
+            lettre = l;
             $( "#index" ).append(
                     $("<a></a>")
-                        .attr("href", "#" + lettreAlphabet)
-                        .html(lettreAlphabet)
+                        .attr("href", "#" + lettre)
+                        .html(lettre)
                     );
             $( "#mots" ).append(
                     $("<div></div>")
                         .attr("class", "groupe-lettre")
-                        .append($("<a></a>").attr("name", lettreAlphabet))
-                        .append($("<h3></h3>").html(lettreAlphabet))
+                        .append($("<a></a>").attr("name", lettre))
+                        .append($("<h3></h3>").html(lettre))
                     );
         }
 
