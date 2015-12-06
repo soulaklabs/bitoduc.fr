@@ -11,8 +11,8 @@
         <script>
           $( function() {
                $.getJSON( "traductions.json", function( traductions ) {
-                 construitListe(window, traductions);
-                 $( "#lienChange" ).click( function() {changeDeSens(window, traductions);} );
+                 construitListe(traductions);
+                 $( "#lienChange" ).click( function() {changeDeSens(traductions);} );
                });
           });
         </script>
