@@ -1,5 +1,4 @@
-function changeDeSens(traductions)
-{
+function changeDeSens(traductions) {
     var langue = $( "#mots" ).attr("data-langue");
     var autre = {'anglais': 'francais',
                  'francais': 'anglais'};
@@ -7,8 +6,8 @@ function changeDeSens(traductions)
     construitListe(traductions);
 }
 
-function metAJourLienChange(langue){
-    var de = ' <span class="mot-anglais">Anglais</span>  ';
+function metAJourLienChange(langue) {
+    var de = '<span class="mot-anglais">Anglais</span>';
     var vers = '<span class="mot-francais">Français</span>';
     var fleche = ' &rarr; ';
     if (langue == 'francais') {
@@ -19,7 +18,7 @@ function metAJourLienChange(langue){
     $( "#lienChange" ).html(de + fleche  + vers);
 }
 
-function sansAccents(mot){
+function sansAccents(mot) {
     // Faute d'une bibliotheque unidecode, nous nous limitons aux lettres
     // accentuées du français.
     // https://fr.wikipedia.org/wiki/Diacritiques_utilisés_en_français
@@ -39,8 +38,7 @@ function sansAccents(mot){
         .replace("ü", "u");
 }
 
-function construitListe(traductions)
-{
+function construitListe(traductions) {
     var langue = $( "#mots" ).attr("data-langue");
 
     metAJourLienChange(langue);
@@ -55,27 +53,27 @@ function construitListe(traductions)
     $( "#mots" ).html("");
     $( "#index" ).html("");
 
-    var lettreAlphabet = '';
+    var lettre = '';
     for (var i=0; i < traductions.length; i++) {
         var mot = traductions[i];
         var l = sansAccents(mot[langue]).charAt(0).toUpperCase();
 
-        if (l != lettreAlphabet) {
-            lettreAlphabet = l;
+        if (l != lettre) {
+            lettre = l;
             $( "#index" ).append(
                     $("<a></a>")
-                        .attr("href", "#" + lettreAlphabet)
-                        .html(lettreAlphabet)
+                        .attr("href", "#" + lettre)
+                        .html(lettre)
                     );
             $( "#mots" ).append(
                     $("<div></div>")
                         .attr("class", "groupe-lettre")
-                        .append($("<a></a>").attr("name", lettreAlphabet))
-                        .append($("<h3></h3>").html(lettreAlphabet))
+                        .append($("<a></a>").attr("name", lettre))
+                        .append($("<h3></h3>").html(lettre))
                     );
         }
 
-        var cle = '<span class="mot-anglais"> ' + mot.anglais + ' </span>';
+        var cle = '<span class="mot-anglais">' + mot.anglais + '</span>';
         var val = '<span class="mot-francais">' + mot.francais + '</span>';
         if (langue == "francais") {
             var tmp = cle;
