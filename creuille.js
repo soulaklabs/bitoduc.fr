@@ -1,135 +1,94 @@
-function trouveElement(id)
+function changeDeSens(traductions)
 {
-    return document.getElementById(id);
-}
-
-function obtenirLAttribut(element, attribut)
-{
-    return element.getAttribute(attribut);
-}
-
-function definirLAttribut(element, attribut, valeur)
-{
-    return element.setAttribute(attribut, valeur);
-}
-
-function changeDeSens(window, traductions)
-{
-    var element = trouveElement('mots')
-    var langueDesClefsActuelle = obtenirLAttribut(element, 'data-langue');
+    var langue = $( "#mots" ).attr("data-langue");
     var autre = {'anglais': 'francais',
                  'francais': 'anglais'};
-    var langueDesClefsNouvelle = autre[langueDesClefsActuelle];
-    definirLAttribut(element, 'data-langue', langueDesClefsNouvelle);
-    construitListe(window, traductions)
+    $( "#mots" ).attr("data-langue", autre[langue]);
+    construitListe(traductions);
 }
 
-function construitListe(window, traductions)
+function metAJourLienChange(langue){
+    var de = ' <span class="mot-anglais">Anglais</span>  ';
+    var vers = '<span class="mot-francais">Français</span>';
+    var fleche = ' &rarr; ';
+    if (langue == 'francais') {
+        var tmp = de;
+        de = vers;
+        vers = tmp;
+    }
+    $( "#lienChange" ).html(de + fleche  + vers);
+}
+
+function sansAccents(mot){
+    // Faute d'une bibliotheque unidecode, nous nous limitons aux lettres
+    // accentuées du français.
+    // https://fr.wikipedia.org/wiki/Diacritiques_utilisés_en_français
+    return mot
+        .toLowerCase()
+        .replace("à", "a")
+        .replace("â", "a")
+        .replace("ç", "c")
+        .replace("é", "e")
+        .replace("è", "e")
+        .replace("ê", "e")
+        .replace("ë", "e")
+        .replace("î", "i")
+        .replace("ï", "i")
+        .replace("ô", "o")
+        .replace("ù", "u")
+        .replace("ü", "u");
+}
+
+function construitListe(traductions)
 {
-    var document = window.document;
-    document.creeElement = document.createElement;
+    var langue = $( "#mots" ).attr("data-langue");
 
-    var vrais_mots = traductions["vrais mots"];
+    metAJourLienChange(langue);
 
-    var faux_mots = traductions["faux mots"];
+    traductions = traductions["vrais mots"].concat(traductions["faux mots"]);
+    // tri par ordre alphabétique de la langue de départ
+    traductions.sort(function(traduction1, traduction2){
+        return (sansAccents(traduction1[langue]) >
+                sansAccents(traduction2[langue]));
+    });
 
-    function cache(e)
-    {
-        e.style.visibility = 'hidden';
-    }
+    $( "#mots" ).html("");
+    $( "#index" ).html("");
 
-    function montre(e)
-    {
-        e.style.visibility = 'visible';
-    }
+    var lettreAlphabet = '';
+    for (var i=0; i < traductions.length; i++) {
+        var mot = traductions[i];
+        var l = sansAccents(mot[langue]).charAt(0).toUpperCase();
 
-    var tous_les_mots = vrais_mots.concat(faux_mots);
-
-    var i;
-    var lien = trouveElement('lienChange');
-    var index = trouveElement('index');
-    var mots = trouveElement('mots');
-    var langueDesClefs = obtenirLAttribut(mots, 'data-langue');
-    var lettres = new Array(26);
-    var noeud;
-
-    function enleveLesAccents(s) {
-        s = s.replace("é", "e");
-        return s;
-    }
-
-    var lienFR = '<span class="mot-francais">Français</span>';
-    var lienANG = '<span class="mot-anglais">Anglais</span>';
-    var lienSource = lienFR;
-    var lienDestination = lienANG;
-    if (langueDesClefs === 'anglais') {
-        lienSource = lienANG;
-        lienDestination = lienFR;
-    }
-    lien.innerHTML = lienSource + ' &rarr; ' + lienDestination;
-
-    mots.innerHTML = '';
-    index.innerHTML = '';
-
-
-    for (i = 0; i < 26; ++i) {
-
-        var lettre = String.fromCharCode(65 + i);
-
-        lettres[i] = noeud = document.creeElement('div');
-        noeud.className = 'groupe-lettre';
-        noeud.enfants = 0;
-        var ancre = document.creeElement('a');
-        ancre.name = lettre;
-        noeud.appendChild(ancre);
-        var titre = document.creeElement('h3');
-        titre.innerHTML = lettre;
-        noeud.appendChild(titre);
-    }
-
-    // renvoie un nombre entre 0 et 25
-    function indiceDeLaPremiereLettre(m) {
-
-        var motSansAccent = enleveLesAccents(m);
-        var motEnMinuscule = motSansAccent.toLowerCase();
-        var resultat = motEnMinuscule.charCodeAt(0) - "a".charCodeAt(0);
-        return resultat;
-    }
-
-    for (i = 0; i < tous_les_mots.length; ++i) {
-
-        var mot = tous_les_mots[i];
-
-        noeud = document.createElement('div');
-        noeud.className = 'definition';
-
-        var spanAnglais = '<span class="mot-anglais"> ' + mot.anglais + ' </span>';
-        var spanFrancais = '<span class="mot-francais">' + mot.francais + '</span>';
-
-        var spanClef = spanFrancais;
-        var spanValeur = spanAnglais;
-        var indice = indiceDeLaPremiereLettre(mot.francais);
-        if (langueDesClefs === 'anglais') {
-            spanClef = spanAnglais;
-            spanValeur = spanFrancais;
-            indice = indiceDeLaPremiereLettre(mot.anglais);
+        if (l != lettreAlphabet) {
+            lettreAlphabet = l;
+            $( "#index" ).append(
+                    $("<a></a>")
+                        .attr("href", "#" + lettreAlphabet)
+                        .html(lettreAlphabet)
+                    );
+            $( "#mots" ).append(
+                    $("<div></div>")
+                        .attr("class", "groupe-lettre")
+                        .append($("<a></a>").attr("name", lettreAlphabet))
+                        .append($("<h3></h3>").html(lettreAlphabet))
+                    );
         }
 
-        noeud.innerHTML = '· ' + spanClef + ' : ' + spanValeur;
-
-        lettres[indice].appendChild(noeud);
-        lettres[indice].enfants++;
-    }
-
-    for (i = 0; i < 26; ++i) {
-        var lettre = String.fromCharCode(65 + i);
-        noeud = lettres[i];
-        if (noeud.enfants > 1) {
-            mots.appendChild(noeud);
-            var lettreIndex = document.creeElement('a');
-            lettreIndex.href = '#' + lettre;
-            lettreIndex.innerHTML = lettre;
-            index.appendChild(lettreIndex);
+        var cle = '<span class="mot-anglais"> ' + mot.anglais + ' </span>';
+        var val = '<span class="mot-francais">' + mot.francais + '</span>';
+        if (langue == "francais") {
+            var tmp = cle;
+            cle = val;
+            val = tmp;
         }
+        $( "#mots" )
+            .children()
+            .last()
+            .append(
+                $("<div></div>")
+                    .attr("class", "definition")
+                    .html('· ' + cle + ' : ' + val)
+            );
     }
 }
