@@ -1,21 +1,25 @@
+var reciproque = {'anglais': 'francais', 'francais': 'anglais'};
+var embelli = {'francais': 'Français', 'anglais': 'Anglais'};
+
 function changeDeSens(traductions) {
     var langue = $( "#mots" ).attr("data-langue");
-    var autre = {'anglais': 'francais',
-                 'francais': 'anglais'};
-    $( "#mots" ).attr("data-langue", autre[langue]);
+    $( "#mots" ).attr("data-langue", reciproque[langue]);
     construitListe(traductions);
 }
 
 function metAJourLienChange(langue) {
-    var de = '<span class="mot-anglais">Anglais</span>';
-    var vers = '<span class="mot-francais">Français</span>';
-    var fleche = ' &rarr; ';
-    if (langue == 'francais') {
-        var tmp = de;
-        de = vers;
-        vers = tmp;
-    }
-    $( "#lienChange" ).html(de + fleche  + vers);
+    var langueSource = langue;
+    var langueDestination = reciproque[langue];
+    $( "#lienChange" )
+        .html(
+                '<span class="mot-' + langueSource + '">'
+                + embelli[langueSource]
+                + '</span>'
+                + ' &rarr; '
+                + '<span class="mot-' + langueDestination + '">'
+                + embelli[langueDestination]
+                + '</span>'
+          );
 }
 
 function sansAccents(mot) {
@@ -53,40 +57,44 @@ function construitListe(traductions) {
     $( "#mots" ).html("");
     $( "#index" ).html("");
 
-    var lettre = '';
+    var l = '';
     for (var i=0; i < traductions.length; i++) {
         var mot = traductions[i];
-        var l = sansAccents(mot[langue]).charAt(0).toUpperCase();
+        var c = sansAccents(mot[langue]).charAt(0).toUpperCase();
 
-        if (l != lettre) {
-            lettre = l;
+        if (c != l) {
+            l = c;
             $( "#index" ).append(
                     $("<a></a>")
-                        .attr("href", "#" + lettre)
-                        .html(lettre)
+                        .attr("href", "#" + l)
+                        .html(l)
                     );
             $( "#mots" ).append(
                     $("<div></div>")
                         .attr("class", "groupe-lettre")
-                        .append($("<a></a>").attr("name", lettre))
-                        .append($("<h3></h3>").html(lettre))
+                        .append($("<a></a>").attr("name", l))
+                        .append($("<h3></h3>").html(l))
                     );
         }
 
-        var cle = '<span class="mot-anglais">' + mot.anglais + '</span>';
-        var val = '<span class="mot-francais">' + mot.francais + '</span>';
-        if (langue == "francais") {
-            var tmp = cle;
-            cle = val;
-            val = tmp;
-        }
+        var langueSource = langue;
+        var langueDestination = reciproque[langue];
         $( "#mots" )
             .children()
             .last()
             .append(
                 $("<div></div>")
                     .attr("class", "definition")
-                    .html('· ' + cle + ' : ' + val)
+                    .html(
+                        '· '
+                        + '<span class="mot-' + langueSource + '">'
+                        + mot[langueSource]
+                        + '</span>'
+                        + ' : '
+                        + '<span class="mot-' + langueDestination + '">'
+                        + mot[langueDestination]
+                        + '</span>'
+                        )
             );
     }
 }
