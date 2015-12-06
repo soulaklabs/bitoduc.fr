@@ -126,7 +126,8 @@
         {"anglais": "verbose", "francais": "volubile"},
         {"anglais": "watchdog", "francais": "chien de garde"},
         {"anglais": "webcam", "francais": "cybercaméra"},
-        {"anglais": "webmaster", "francais": "webmestre"}
+        {"anglais": "webmaster", "francais": "webmestre"},
+        {"anglais": "library", "francais": "bibliothèque"}
     ],
 
     "faux mots": [
