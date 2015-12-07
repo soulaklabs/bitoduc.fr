@@ -45,7 +45,7 @@
         {"anglais": "Core dump", "francais": "Vidage de mémoire", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Dangling pointer", "francais": "Pointeur fou", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Database", "francais": "Base de données", "genre": "f", "classe": "groupe nominal", "pluriel": false},
-        {"anglais": "Deadlock", "francais": "Étreinte fatale", "genre": "f", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Deadlock", "francais": "Interblocage", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Debugger", "francais": "Dévermineur", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Desktop", "francais": "Ordinateur de bureau", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Device", "francais": "Appareil", "genre": "m", "classe": "groupe nominal", "pluriel": false},
