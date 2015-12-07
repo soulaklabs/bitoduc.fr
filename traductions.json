@@ -72,7 +72,7 @@
         {"anglais": "Hash table", "francais": "Tableau à adressage dispersé", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Hash", "francais": "Condensat", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Hashtag", "francais": "Mot-croisillon", "genre": "m", "classe": "groupe nominal", "pluriel": false},
-        {"anglais": "Heap spray", "francais": "Pulvérisation du tas", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Heap spray", "francais": "Pulvérisation du tas", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Home row", "francais": "Touche de repos", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Hub", "francais": "Concentrateur", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Hyperlink", "francais": "Hyperlien", "genre": "m", "classe": "groupe nominal", "pluriel": false},
