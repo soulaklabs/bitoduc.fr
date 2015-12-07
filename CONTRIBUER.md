@@ -14,7 +14,7 @@ Contrairement à ce que l'on pourrait penser, Bitoduc.fr n'a pas vocation à
 rassembler des traductions officielles. Les traductions que nous choisissons 
 sont celles qui, selon nous, sont les plus pertinentes. 
 
-Par celà même, nous voulons replacer le contrôle du _patois technique_ dans 
+_Id est_, nous voulons replacer le contrôle du _patois technique_ dans 
 les mains de ceux-là même qui auront à l'utiliser. Qui est en effet le mieux
 à même de déceler les insuffisances du vocabulaire francphone, si ce n'est 
 l'homme du métier?
