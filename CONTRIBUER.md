@@ -32,7 +32,7 @@ La préférence éditoriale s'oriente généralement sur des choix présentant
 une dimension humoristique, mais nous estimons que ces choix ne doivent
 pas se faire au détriment de la justesse des traductions. Seule une décision
 au cas par cas nous parait pertinente ; l'avis des Immortels rentre en ligne
-de compte, certes, mais l'homme du commun à droit à une égale considération, 
+de compte, certes, mais l'homme du commun mérite une égale considération, 
 dans la continuité de l'esprit des Lumières.
 
 
