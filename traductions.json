@@ -129,7 +129,9 @@
         {"anglais": "Watchdog", "francais": "Chien de garde", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Webcam", "francais": "Cybercaméra", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Webmaster", "francais": "Webmestre", "genre": "m", "classe": "groupe nominal", "pluriel": false},
-        {"anglais": "Library", "francais": "Bibliothèque", "genre": "m", "classe": "groupe nominal", "pluriel": false}
+        {"anglais": "Library", "francais": "Bibliothèque", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Wildcard", "francais": "Joker", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Placeholder", "francais": "Marque substitutive", "genre": "f", "classe": "groupe nominal", "pluriel": false}
     ],
 
     "faux mots": [
