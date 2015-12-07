@@ -7,7 +7,7 @@ votre première fusiodemande apportant des modifications qui vous tiennent
 à coeur.
 
 Afin que vous ne soyez pas déçu si vous faites une proposition et que
-celle-ci est rejetée, ou donne lieu à un imposant débat, posons tout
+celle-ci est rejetée, ou donne lieu à un intense débat, posons tout
 d'abord les jalons de la ligne éditoriale de Bitoduc.fr.
 
 Contrairement à ce que l'on pourrait penser, Bitoduc.fr n'a pas vocation à
