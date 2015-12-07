@@ -22,7 +22,7 @@ l'homme du métier?
 Par exemple, le journal officiel de la Commission générale de terminologie et
 de néologie propose « mot-dièse » comme traduction pour « hashtag ». Nous
 avons choisi « mot-croisillon », plus drôle, mais surtout plus correct,
-puisque le dièse fait référence au symbol de musique « ♯ », alors que le
+puisque le dièse fait référence au symbole de musique « ♯ », alors que le
 symbole « # » employé sur les réseaux sociaux s'appelle un croisillon.
 
 Nous croyons, à Soulaklabs, que la création de termes ne se fait pas de 
@@ -33,7 +33,7 @@ une dimension humoristique, mais nous estimons que ces choix ne doivent
 pas se faire au détriment de la justesse des traductions. Seule une décision
 au cas par cas nous parait pertinente ; l'avis des Immortels rentre en ligne
 de compte, certes, mais l'homme du commun à droit à une égale considération, 
-dans la continuité des Lumières.
+dans la continuité de l'esprit des Lumières.
 
 
 Bonne contribution !
