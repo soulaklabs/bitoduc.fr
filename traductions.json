@@ -131,7 +131,9 @@
         {"anglais": "Webmaster", "francais": "Webmestre", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Library", "francais": "Bibliothèque", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Wildcard", "francais": "Joker", "genre": "m", "classe": "groupe nominal", "pluriel": false},
-        {"anglais": "Placeholder", "francais": "Marque substitutive", "genre": "f", "classe": "groupe nominal", "pluriel": false}
+        {"anglais": "Placeholder", "francais": "Marque substitutive", "genre": "f", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Parsing", "francais": "Analyse syntaxique", "genre": "f", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Lexing", "francais": "Analyse lexicale", "genre": "f", "classe": "groupe nominal", "pluriel": false}
     ],
 
     "faux mots": [
