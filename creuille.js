@@ -50,8 +50,15 @@ function construitListe(traductions) {
     traductions = traductions["vrais mots"].concat(traductions["faux mots"]);
     // tri par ordre alphabétique de la langue de départ
     traductions.sort(function(traduction1, traduction2){
-        return (sansAccents(traduction1[langue]) >
-                sansAccents(traduction2[langue]));
+        var s1 = sansAccents(traduction1[langue]);
+        var s2 = sansAccents(traduction2[langue]);
+        if (s1 > s2) {
+            return 1;
+        }
+        if (s2 > s1) {
+            return -1;
+        }
+        return 0;
     });
 
     $( "#mots" ).html("");
