@@ -112,7 +112,7 @@
         {"anglais": "Slash", "francais": "Barre oblique", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Smart grids", "francais": "Grilles malignes", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Spam", "francais": "Polluriel, pourriel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
-        {"anglais": "Spammeur", "francais": "Arroseur publicitaire", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Spammer", "francais": "Arroseur publicitaire", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Spinlock", "francais": "Tourniquet", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Spyware", "francais": "Espiogiciel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Stack cookie", "francais": "Biscuit de pile", "genre": "m", "classe": "groupe nominal", "pluriel": false},
