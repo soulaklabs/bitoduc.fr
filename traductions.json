@@ -36,6 +36,7 @@
         {"anglais": "Byte", "francais": "Octet"},
         {"anglais": "Cache memory", "francais": "Antémémoire" },
         {"anglais": "Callback function", "francais": "Fonction de rappel"},
+        {"anglais": "Capitalization", "francais": "Majusculation"},
         {"anglais": "Checksum", "francais": "Somme de contrôle"},
         {"anglais": "Chipset", "francais": "Jeu de puces" },
         {"anglais": "Cloud computing", "francais": "Infonuagique"},
