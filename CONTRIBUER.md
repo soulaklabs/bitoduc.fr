@@ -27,7 +27,7 @@ alors que le symbole « # » employé sur les réseaux sociaux s'appelle un
 croisillon.
 
 Chez Soulaklabs, nous croyons que la création de termes ne se fait pas de
-haut-en-bas, mais de bas-en-haut.
+haut en bas, mais de bas en haut.
 
 La préférence éditoriale s'oriente généralement sur des choix présentant
 une dimension humoristique, mais nous estimons que ces choix ne doivent
