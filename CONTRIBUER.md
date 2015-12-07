@@ -3,7 +3,7 @@ Ligne Éditoriale
 
 Chère contributrice, cher contributeur, nous vous remercions pour
 l'intérêt que vous portez à Bitoduc.fr. Vous faites peut-être en ce
-moment votre première fusio-demande apportant des modifications qui vous
+moment votre première fusiodemande apportant des modifications qui vous
 tiennent à coeur.
 
 Afin que vous ne soyez pas déçu si vous faites une proposition et que 
@@ -16,8 +16,8 @@ sont celles qui, selon nous, sont les plus pertinentes.
 
 _Id est_, nous voulons replacer le contrôle du _patois technique_ dans 
 les mains de ceux-là même qui auront à l'utiliser. Qui est en effet le mieux
-à même de déceler les insuffisances du vocabulaire francphone, si ce n'est 
-l'homme du métier?
+à même de déceler les insuffisances du vocabulaire francophone, si ce n'est 
+l'homme du métier ?
 
 Par exemple, le journal officiel de la Commission générale de terminologie et
 de néologie propose « mot-dièse » comme traduction pour « hashtag ». Nous
