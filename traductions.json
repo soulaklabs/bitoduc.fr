@@ -122,6 +122,7 @@
         {"anglais": "Thumbnail", "francais": "Imagette", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "To deface", "francais": "Défigurer", "classe": "groupe verbal"},
         {"anglais": "To reverse", "francais": "Détricoter", "classe": "groupe verbal"},
+        {"anglais": "Tuning", "francais": "Bolidage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Tutorial", "francais": "Didacticiel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Upload", "francais": "Téléversement", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Version control system", "francais": "Logiciel de gestion de versions", "genre": "m", "classe": "groupe nominal", "pluriel": false},
