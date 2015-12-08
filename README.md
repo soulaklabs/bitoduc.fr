@@ -1,3 +1,6 @@
+[![Clavardage sur Gitter](https://img.shields.io/badge/clavarder-avec%20nous-brightgreen.svg)](https://gitter.im/soulaklabs/bitoduc.fr)
+
+
 bitoduc.fr
 ==========
 
