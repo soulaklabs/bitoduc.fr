@@ -56,6 +56,16 @@ h3
     color: #905050;
 }
 
+.genre
+{
+    display: None;
+}
+
+.classe
+{
+    display: None;
+}
+
 #intro
 {
     font-size: larger;

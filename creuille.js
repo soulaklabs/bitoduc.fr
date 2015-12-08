@@ -42,6 +42,29 @@ function sansAccents(mot) {
         .replace("ü", "u");
 }
 
+function htmlifier(mot, langue){
+    var res = '<span class="mot-' + langue + '">' + mot[langue] + '</span>';
+    if (langue == "francais") {
+        if ("genre" in mot){
+            var genre = 'N' + mot["genre"].toUpperCase();
+            res += ' <span class="genre">' + genre + '</span>';
+        }
+        if ("classe" in mot){
+            var classe = "";
+            if (mot["classe"] == "groupe nominal") {
+                classe = "GN";
+            }
+            if (mot["classe"] == "proposition") {
+                classe = "Prop";
+            }
+            if (classe != ""){
+                res += ' <span class="classe">' + classe + '</span>';
+            }
+        }
+    }
+    return res;
+}
+
 function construitListe(traductions) {
     var langue = $( "#mots" ).attr("data-langue");
 
@@ -84,8 +107,6 @@ function construitListe(traductions) {
                     );
         }
 
-        var langueSource = langue;
-        var langueDestination = reciproque[langue];
         $( "#mots" )
             .children()
             .last()
@@ -94,13 +115,9 @@ function construitListe(traductions) {
                     .attr("class", "definition")
                     .html(
                         '· '
-                        + '<span class="mot-' + langueSource + '">'
-                        + mot[langueSource]
-                        + '</span>'
+                        + htmlifier(mot, langue)
                         + ' : '
-                        + '<span class="mot-' + langueDestination + '">'
-                        + mot[langueDestination]
-                        + '</span>'
+                        + htmlifier(mot, reciproque[langue])
                         )
             );
     }
