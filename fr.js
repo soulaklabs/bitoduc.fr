@@ -18,6 +18,7 @@ document.localisation = document.location;
 document.localisation.protocole = document.localisation.protocole;
 
 jQuery.fn.extend({
+    clic: function (x) { return this.click(x); },
     enfants: function () { return this.children(); },
     dernier: function () { return this.last(); },
     ajouter: function (x) { return this.append(x); }
