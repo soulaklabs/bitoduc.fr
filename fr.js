@@ -1,5 +1,4 @@
 Objet = Object
-//Objet.prototype.ajouter = Objet.prototype.append
 Objet.creer = Objet.create
 
 Chaine = String
