@@ -156,6 +156,7 @@
         {"anglais": "To spoil", "francais": "Divulgâcher", "classe": "verbe"},
         {"anglais": "Tweet", "francais": "Gazouillis", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Walled garden", "francais": "Jardin secret, communauté prison", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Wrapper", "francais": "Métascript", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Bot", "francais": "Robot", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "TIL (Today I Learnt)", "francais": "AJA (Aujourd'hui J'ai Appris)", "classe": "proposition"}
     ]
