@@ -1,7 +1,7 @@
 {
 
     "vrais mots": [
-        {"anglais": "ASLR", "francais": "Disposition Stochastique de l'espace d'addressage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "ASLR", "francais": "Disposition Stochastique de l’espace d’addressage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "BBS (Bulletin Board System)", "francais": "Babillard électronique", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "BYOD (Bring Your Own Device)", "francais": "AVEC (Apportez Votre Equipement personnel de Communication)", "classe": "proposition"},
         {"anglais": "CDROM", "francais": "Cédérom", "genre": "m", "classe": "groupe nominal", "pluriel": false},
@@ -26,7 +26,7 @@
         {"anglais": "Backdoor", "francais": "Porte dérobée", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Backport", "francais": "Rétroportage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Backslash", "francais": "Barre oblique inversée", "genre": "f", "classe": "groupe nominal", "pluriel": false},
-        {"anglais": "Benchmark", "francais": "Banc d'essai", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Benchmark", "francais": "Banc d’essai", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Big data", "francais": "Mégadonnées", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Big-endian", "francais": "Grand boutien", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Bloatware", "francais": "Boufficiel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
@@ -63,7 +63,7 @@
         {"anglais": "Framework", "francais": "Cadriciel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Freeware", "francais": "Gratuiciel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Front office", "francais": "Guichet", "genre": "m", "classe": "groupe nominal", "pluriel": false},
-        {"anglais": "Fuzzer", "francais": "Générateur d'anomalies", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Fuzzer", "francais": "Générateur d’anomalies", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Fuzzing", "francais": "Frelatage en masse", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Glue code", "francais": "Code ciment", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "God object", "francais": "Objet omniscient", "genre": "m", "classe": "groupe nominal", "pluriel": false},
@@ -81,7 +81,7 @@
         {"anglais": "Little-endian", "francais": "Petit boutien", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Lurker", "francais": "Fureteur", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Malware", "francais": "Maliciel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
-        {"anglais": "Man-in-the-middle attack", "francais": "Attaque de l'homme du milieu", "genre": "f", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Man-in-the-middle attack", "francais": "Attaque de l’homme du milieu", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Middleware", "francais": "Intergiciel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Monkey-in-the-middle attack", "francais": "Attaque du singe intercepteur", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Namespace", "francais": "Espace de noms", "genre": "m", "classe": "groupe nominal", "pluriel": false},
@@ -158,7 +158,7 @@
         {"anglais": "Walled garden", "francais": "Jardin secret, communauté prison", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Wrapper", "francais": "Métascript", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Bot", "francais": "Robot", "genre": "m", "classe": "groupe nominal", "pluriel": false},
-        {"anglais": "TIL (Today I Learnt)", "francais": "AJA (Aujourd'hui J'ai Appris)", "classe": "proposition"}
+        {"anglais": "TIL (Today I Learnt)", "francais": "AJA (Aujourd’hui J’ai Appris)", "classe": "proposition"}
     ]
 
 }
