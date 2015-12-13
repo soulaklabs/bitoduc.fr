@@ -1,13 +1,15 @@
-Objet = Object
+'use strict';
+
+var Objet = Object
 Objet.creer = Objet.create
 
-Chaine = String
+var Chaine = String
 Chaine.prototype.enMinuscules = Chaine.prototype.toLowerCase
 Chaine.prototype.enMajuscules = Chaine.prototype.toUpperCase
 Chaine.prototype.remplacer = Chaine.prototype.replace
 Chaine.prototype.caractereA = Chaine.prototype.charAt
 
-Tableau = Array
+var Tableau = Array
 Tableau.prototype.tri = Tableau.prototype.sort
 Tableau.prototype.longueur = function () { return this.length; }
 Tableau.prototype.pousser = Tableau.prototype.push

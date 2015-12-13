@@ -1,3 +1,5 @@
+'use strict';
+
 var reciproque = {'anglais': 'francais', 'francais': 'anglais'};
 var embelli = {'francais': 'Français', 'anglais': 'Anglais'};
 
@@ -123,3 +125,11 @@ function construitListe(traductions) {
             );
     }
 }
+
+$(function() {
+    $.recupererJSON( "traductions.json", function( traductions ) {
+        construitListe(traductions);
+        $( "#lienChange" ).clic( function() {changeDeSens(traductions);} );
+    });
+});
+
