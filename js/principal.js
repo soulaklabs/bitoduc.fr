@@ -71,7 +71,7 @@ function construireListe(traductions) {
     var l = '';
     for (var i=0; i < traductions.longueur(); i++) {
         var mot = traductions[i];
-        var c = mot[langue].caractereA(0).enMajuscules().sansAccents();
+        var c = mot[langue].caractèreÀ(0).enMajuscules().sansAccents();
 
 
         if (c != l) {
@@ -106,7 +106,7 @@ function construireListe(traductions) {
 }
 
 $(function() {
-    $.recupererJSON( "traductions.json", function( traductions ) {
+    $.récupérerJSON( "traductions.json", function( traductions ) {
         construireListe(traductions);
         mettreÀJourLienInversion();
         $( "#lienInversion" ).clic( function() {inverser(traductions);} );

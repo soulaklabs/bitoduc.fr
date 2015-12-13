@@ -6,14 +6,14 @@ $(function() {
     _gaq.pousser(['_trackPageview']);
 
     (function() {
-        var ga = document.creerElement('script');
+        var ga = document.créerÉlément('script');
         ga.type = 'text/javascript';
         ga.async = true;
         ga.src =
             ('https:' == document.localisation.protocole ?
              'https://ssl' : 'http://www')
             + '.google-analytics.com/ga.js';
-        var s = document.recupererElementParNomDEtiquette('script')[0];
+        var s = document.récupérerÉlémentParNomDÉtiquette('script')[0];
         s.parentNode.insertBefore(ga, s);
     })();
 });
