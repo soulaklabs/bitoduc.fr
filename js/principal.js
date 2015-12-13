@@ -3,16 +3,16 @@
 var reciproque = {'anglais': 'francais', 'francais': 'anglais'};
 var embelli = {'francais': 'Français', 'anglais': 'Anglais'};
 
-function changeDeSens(traductions) {
+function inverser(traductions) {
     var langue = $( "#mots" ).attr("data-langue");
     $( "#mots" ).attr("data-langue", reciproque[langue]);
     construitListe(traductions);
 }
 
-function metAJourLienChange(langue) {
+function mettreAJourLienInversion(langue) {
     var langueSource = langue;
     var langueDestination = reciproque[langue];
-    $( "#lienChange" )
+    $( "#lienInversion" )
         .html(
                 '<span class="mot-' + langueSource + '">'
                 + embelli[langueSource]
@@ -22,26 +22,6 @@ function metAJourLienChange(langue) {
                 + embelli[langueDestination]
                 + '</span>'
           );
-}
-
-function sansAccents(mot) {
-    // Faute d'une bibliotheque unidecode, nous nous limitons aux lettres
-    // accentuées du français.
-    // https://fr.wikipedia.org/wiki/Diacritiques_utilisés_en_français
-    return mot
-        .enMinuscules()
-        .remplacer("à", "a")
-        .remplacer("â", "a")
-        .remplacer("ç", "c")
-        .remplacer("é", "e")
-        .remplacer("è", "e")
-        .remplacer("ê", "e")
-        .remplacer("ë", "e")
-        .remplacer("î", "i")
-        .remplacer("ï", "i")
-        .remplacer("ô", "o")
-        .remplacer("ù", "u")
-        .remplacer("ü", "u");
 }
 
 function htmlifier(mot, langue){
@@ -70,13 +50,13 @@ function htmlifier(mot, langue){
 function construitListe(traductions) {
     var langue = $( "#mots" ).attr("data-langue");
 
-    metAJourLienChange(langue);
+    mettreAJourLienInversion(langue);
 
     traductions = traductions["vrais mots"].concat(traductions["faux mots"]);
-    // tri par ordre alphabétique de la langue de départ
-    traductions.tri(function(traduction1, traduction2){
-        var s1 = sansAccents(traduction1[langue]);
-        var s2 = sansAccents(traduction2[langue]);
+    // trier par ordre alphabétique de la langue de départ
+    traductions.trier(function(traduction1, traduction2){
+        var s1 = traduction1[langue].enMinuscules().sansAccents();
+        var s2 = traduction2[langue].enMinuscules().sansAccents();
         if (s1 > s2) {
             return 1;
         }
@@ -92,7 +72,7 @@ function construitListe(traductions) {
     var l = '';
     for (var i=0; i < traductions.longueur(); i++) {
         var mot = traductions[i];
-        var c = sansAccents(mot[langue]).caractereA(0).enMajuscules();
+        var c = mot[langue].caractereA(0).enMajuscules().sansAccents();
 
 
         if (c != l) {
@@ -129,7 +109,7 @@ function construitListe(traductions) {
 $(function() {
     $.recupererJSON( "traductions.json", function( traductions ) {
         construitListe(traductions);
-        $( "#lienChange" ).clic( function() {changeDeSens(traductions);} );
+        $( "#lienInversion" ).clic( function() {inverser(traductions);} );
     });
 });
 
