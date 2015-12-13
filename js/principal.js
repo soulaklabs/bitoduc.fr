@@ -1,17 +1,17 @@
 'use strict';
 
-var reciproque = {'anglais': 'francais', 'francais': 'anglais'};
+var réciproque = {'anglais': 'francais', 'francais': 'anglais'};
 var embelli = {'francais': 'Français', 'anglais': 'Anglais'};
 
 function inverser(traductions) {
     var langue = $( "#mots" ).attr("data-langue");
-    $( "#mots" ).attr("data-langue", reciproque[langue]);
+    $( "#mots" ).attr("data-langue", réciproque[langue]);
     construitListe(traductions);
 }
 
-function mettreAJourLienInversion(langue) {
+function mettreÀJourLienInversion(langue) {
     var langueSource = langue;
-    var langueDestination = reciproque[langue];
+    var langueDestination = réciproque[langue];
     $( "#lienInversion" )
         .html(
                 '<span class="mot-' + langueSource + '">'
@@ -50,7 +50,7 @@ function htmlifier(mot, langue){
 function construitListe(traductions) {
     var langue = $( "#mots" ).attr("data-langue");
 
-    mettreAJourLienInversion(langue);
+    mettreÀJourLienInversion(langue);
 
     traductions = traductions["vrais mots"].concat(traductions["faux mots"]);
     // trier par ordre alphabétique de la langue de départ
@@ -100,7 +100,7 @@ function construitListe(traductions) {
                         '· '
                         + htmlifier(mot, langue)
                         + ' : '
-                        + htmlifier(mot, reciproque[langue])
+                        + htmlifier(mot, réciproque[langue])
                         )
             );
     }
