@@ -46,7 +46,7 @@ h3
     margin-left: 10px;
 }
 
-.mot-francais
+.mot-français
 {
     color: #208f20;
 }
@@ -75,7 +75,7 @@ h3
 
 #publicite
 {
-    font-size: normal;
+    font-size: initial;
     color: #905050;
     margin: 50px;
 }

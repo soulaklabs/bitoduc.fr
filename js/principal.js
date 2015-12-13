@@ -1,50 +1,33 @@
-var reciproque = {'anglais': 'francais', 'francais': 'anglais'};
-var embelli = {'francais': 'Français', 'anglais': 'Anglais'};
+'use strict';
 
-function changeDeSens(traductions) {
+var réciproque = {'anglais': 'français', 'français': 'anglais'};
+
+function inverser(traductions) {
     var langue = $( "#mots" ).attr("data-langue");
-    $( "#mots" ).attr("data-langue", reciproque[langue]);
-    construitListe(traductions);
+    $( "#mots" ).attr("data-langue", réciproque[langue]);
+    construireListe(traductions);
+    mettreÀJourLienInversion();
 }
 
-function metAJourLienChange(langue) {
+function mettreÀJourLienInversion() {
+    var langue = $( "#mots" ).attr("data-langue");
     var langueSource = langue;
-    var langueDestination = reciproque[langue];
-    $( "#lienChange" )
+    var langueDestination = réciproque[langue];
+    $( "#lienInversion" )
         .html(
                 '<span class="mot-' + langueSource + '">'
-                + embelli[langueSource]
+                + langueSource.majusculer()
                 + '</span>'
                 + ' &rarr; '
                 + '<span class="mot-' + langueDestination + '">'
-                + embelli[langueDestination]
+                + langueDestination.majusculer()
                 + '</span>'
           );
 }
 
-function sansAccents(mot) {
-    // Faute d'une bibliotheque unidecode, nous nous limitons aux lettres
-    // accentuées du français.
-    // https://fr.wikipedia.org/wiki/Diacritiques_utilisés_en_français
-    return mot
-        .enMinuscules()
-        .remplacer("à", "a")
-        .remplacer("â", "a")
-        .remplacer("ç", "c")
-        .remplacer("é", "e")
-        .remplacer("è", "e")
-        .remplacer("ê", "e")
-        .remplacer("ë", "e")
-        .remplacer("î", "i")
-        .remplacer("ï", "i")
-        .remplacer("ô", "o")
-        .remplacer("ù", "u")
-        .remplacer("ü", "u");
-}
-
 function htmlifier(mot, langue){
     var res = '<span class="mot-' + langue + '">' + mot[langue] + '</span>';
-    if (langue == "francais") {
+    if (langue == "français") {
         if ("genre" in mot){
             var genre = 'N' + mot["genre"].enMajuscules();
             res += ' <span class="genre">' + genre + '</span>';
@@ -65,16 +48,14 @@ function htmlifier(mot, langue){
     return res;
 }
 
-function construitListe(traductions) {
+function construireListe(traductions) {
     var langue = $( "#mots" ).attr("data-langue");
 
-    metAJourLienChange(langue);
-
     traductions = traductions["vrais mots"].concat(traductions["faux mots"]);
-    // tri par ordre alphabétique de la langue de départ
-    traductions.tri(function(traduction1, traduction2){
-        var s1 = sansAccents(traduction1[langue]);
-        var s2 = sansAccents(traduction2[langue]);
+    // trier par ordre alphabétique de la langue de départ
+    traductions.trier(function(traduction1, traduction2){
+        var s1 = traduction1[langue].enMinuscules().sansAccents();
+        var s2 = traduction2[langue].enMinuscules().sansAccents();
         if (s1 > s2) {
             return 1;
         }
@@ -90,7 +71,7 @@ function construitListe(traductions) {
     var l = '';
     for (var i=0; i < traductions.longueur(); i++) {
         var mot = traductions[i];
-        var c = sansAccents(mot[langue]).caractereA(0).enMajuscules();
+        var c = mot[langue].caractereA(0).enMajuscules().sansAccents();
 
 
         if (c != l) {
@@ -118,8 +99,17 @@ function construitListe(traductions) {
                         '· '
                         + htmlifier(mot, langue)
                         + ' : '
-                        + htmlifier(mot, reciproque[langue])
+                        + htmlifier(mot, réciproque[langue])
                         )
             );
     }
 }
+
+$(function() {
+    $.recupererJSON( "traductions.json", function( traductions ) {
+        construireListe(traductions);
+        mettreÀJourLienInversion();
+        $( "#lienInversion" ).clic( function() {inverser(traductions);} );
+    });
+});
+

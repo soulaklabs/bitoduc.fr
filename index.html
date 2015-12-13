@@ -4,33 +4,14 @@
         <meta charset="UTF-8">
         <title>Bitoduc.fr : la référence selon nous-mêmes sur les termes informatiques en français</title>
         <link rel="icon" href="favorimage.ico" />
-        <link rel="stylesheet" type="text/css" href="feuille_de_style.css" />
+        <link rel="stylesheet" type="text/css" href="bitoduc.css" />
 
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script type="text/javascript" src="fr.js" charset="utf-8"></script>
-        <script type="text/javascript" src="creuille.js" charset="utf-8"></script>
-        <script>
-          $( function() {
-               $.recupererJSON( "traductions.json", function( traductions ) {
-                 construitListe(traductions);
-                 $( "#lienChange" ).clic( function() {changeDeSens(traductions);} );
-               });
-          });
-        </script>
-
+        <script type="text/javascript" src="js/prototypes-fr.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/principal.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/gogol-analytique.js"></script>
     </head>
     <body>
-        <script type="text/javascript">
-          var _gaq = _gaq || [];
-          _gaq.pousser(['_setAccount', 'UA-42609030-1']);
-          _gaq.pousser(['_trackPageview']);
-
-          (function() {
-            var ga = document.creerElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.localisation.protocole ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.recupererElementParNomDEtiquette('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-        </script>
         <div id="tout">
             <h1>Bitoduc.fr : termes informatiques en français</h1>
 
@@ -50,7 +31,7 @@
 
                 <br/><br/>
                 <div>
-                    <a id="lienChange" href="#" ></a>
+                    <a id="lienInversion" href="#" ></a>
                 </div>
             </div>
 
