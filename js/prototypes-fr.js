@@ -1,13 +1,13 @@
 'use strict';
 
 var Objet = Object
-Objet.creer = Objet.create
+Objet.créer = Objet.create
 
 var Chaine = String
 Chaine.prototype.enMinuscules = Chaine.prototype.toLowerCase
 Chaine.prototype.enMajuscules = Chaine.prototype.toUpperCase
 Chaine.prototype.remplacer = Chaine.prototype.replace
-Chaine.prototype.caractereA = Chaine.prototype.charAt
+Chaine.prototype.caractèreÀ = Chaine.prototype.charAt
 Chaine.prototype.tranche = Chaine.prototype.slice
 Chaine.prototype.sansAccents = function () {
     // Faute d'une bibliotheque unidecode, nous nous limitons aux lettres
@@ -40,7 +40,7 @@ Chaine.prototype.sansAccents = function () {
         .remplacer("Ü", "U");
 }
 Chaine.prototype.majusculer = function() {
-    return this.caractereA(0).enMajuscules() + this.tranche(1);
+    return this.caractèreÀ(0).enMajuscules() + this.tranche(1);
 }
 
 var Tableau = Array
@@ -48,8 +48,8 @@ Tableau.prototype.trier = Tableau.prototype.sort
 Tableau.prototype.longueur = function () { return this.length; }
 Tableau.prototype.pousser = Tableau.prototype.push
 
-document.creerElement = document.createElement
-document.recupererElementParNomDEtiquette = document.getElementsByTagName;
+document.créerÉlément = document.createElement
+document.récupérerÉlémentParNomDÉtiquette = document.getElementsByTagName;
 document.localisation = document.location;
 document.localisation.protocole = document.localisation.protocole;
 
@@ -59,4 +59,4 @@ jQuery.fn.extend({
     dernier: function () { return this.last(); },
     ajouter: function (x) { return this.append(x); }
 });
-$.recupererJSON = $.getJSON
+$.récupérerJSON = $.getJSON
