@@ -1,0 +1,37 @@
+{ "type": "object",
+    "properties": {
+        "faux mots": {
+            "type": "array",
+            "items": {"$ref": "#/definitions/mot"}
+        },
+        "vrais mots": {
+            "type": "array",
+            "items": {"$ref": "#/definitions/mot"}
+        }
+    },
+    "definitions": {
+        "mot": {
+            "type": "object",
+            "properties":
+            {
+                "anglais": {"type": "string"}, 
+                "francais": {"type": "string"},
+                "classe": {
+                    "type": "string",
+                    "enum": [
+                        "groupe nominal",
+                        "groupe verbal",
+                        "proposition",
+                        "verbe"
+                    ]
+                },
+                "genre": {
+                    "type": "string",
+                    "enum": ["f", "m"]
+                },
+                "pluriel": {"type": "boolean"}
+            },
+            "required": ["anglais", "francais", "classe"]
+        }
+    }
+}
