@@ -15,10 +15,11 @@
             "properties":
             {
                 "anglais": {"type": "string"}, 
-                "francais": {"type": "string"},
+                "français": {"type": "string"},
                 "classe": {
                     "type": "string",
                     "enum": [
+                        "adjectif",
                         "groupe nominal",
                         "groupe verbal",
                         "proposition",
@@ -31,7 +32,7 @@
                 },
                 "pluriel": {"type": "boolean"}
             },
-            "required": ["anglais", "francais", "classe"]
+            "required": ["anglais", "français", "classe"]
         }
     }
 }
