@@ -27,26 +27,26 @@ function sansAccents(mot) {
     // accentuées du français.
     // https://fr.wikipedia.org/wiki/Diacritiques_utilisés_en_français
     return mot
-        .toLowerCase()
-        .replace("à", "a")
-        .replace("â", "a")
-        .replace("ç", "c")
-        .replace("é", "e")
-        .replace("è", "e")
-        .replace("ê", "e")
-        .replace("ë", "e")
-        .replace("î", "i")
-        .replace("ï", "i")
-        .replace("ô", "o")
-        .replace("ù", "u")
-        .replace("ü", "u");
+        .enMinuscules()
+        .remplacer("à", "a")
+        .remplacer("â", "a")
+        .remplacer("ç", "c")
+        .remplacer("é", "e")
+        .remplacer("è", "e")
+        .remplacer("ê", "e")
+        .remplacer("ë", "e")
+        .remplacer("î", "i")
+        .remplacer("ï", "i")
+        .remplacer("ô", "o")
+        .remplacer("ù", "u")
+        .remplacer("ü", "u");
 }
 
 function htmlifier(mot, langue){
     var res = '<span class="mot-' + langue + '">' + mot[langue] + '</span>';
     if (langue == "francais") {
         if ("genre" in mot){
-            var genre = 'N' + mot["genre"].toUpperCase();
+            var genre = 'N' + mot["genre"].enMajuscules();
             res += ' <span class="genre">' + genre + '</span>';
         }
         if ("classe" in mot){
@@ -72,7 +72,7 @@ function construitListe(traductions) {
 
     traductions = traductions["vrais mots"].concat(traductions["faux mots"]);
     // tri par ordre alphabétique de la langue de départ
-    traductions.sort(function(traduction1, traduction2){
+    traductions.tri(function(traduction1, traduction2){
         var s1 = sansAccents(traduction1[langue]);
         var s2 = sansAccents(traduction2[langue]);
         if (s1 > s2) {
@@ -88,18 +88,19 @@ function construitListe(traductions) {
     $( "#index" ).html("");
 
     var l = '';
-    for (var i=0; i < traductions.length; i++) {
+    for (var i=0; i < traductions.longueur(); i++) {
         var mot = traductions[i];
-        var c = sansAccents(mot[langue]).charAt(0).toUpperCase();
+        var c = sansAccents(mot[langue]).caractereA(0).enMajuscules();
+
 
         if (c != l) {
             l = c;
-            $( "#index" ).append(
+            $( "#index" ).ajouter(
                     $("<a></a>")
                         .attr("href", "#" + l)
                         .html(l)
                     );
-            $( "#mots" ).append(
+            $( "#mots" ).ajouter(
                     $("<div></div>")
                         .attr("class", "groupe-lettre")
                         .append($("<a></a>").attr("name", l))
@@ -108,9 +109,9 @@ function construitListe(traductions) {
         }
 
         $( "#mots" )
-            .children()
-            .last()
-            .append(
+            .enfants()
+            .dernier()
+            .ajouter(
                 $("<div></div>")
                     .attr("class", "definition")
                     .html(
