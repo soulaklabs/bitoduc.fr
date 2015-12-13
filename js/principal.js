@@ -1,32 +1,33 @@
 'use strict';
 
-var réciproque = {'anglais': 'francais', 'francais': 'anglais'};
-var embelli = {'francais': 'Français', 'anglais': 'Anglais'};
+var réciproque = {'anglais': 'français', 'français': 'anglais'};
 
 function inverser(traductions) {
     var langue = $( "#mots" ).attr("data-langue");
     $( "#mots" ).attr("data-langue", réciproque[langue]);
-    construitListe(traductions);
+    construireListe(traductions);
+    mettreÀJourLienInversion();
 }
 
-function mettreÀJourLienInversion(langue) {
+function mettreÀJourLienInversion() {
+    var langue = $( "#mots" ).attr("data-langue");
     var langueSource = langue;
     var langueDestination = réciproque[langue];
     $( "#lienInversion" )
         .html(
                 '<span class="mot-' + langueSource + '">'
-                + embelli[langueSource]
+                + langueSource.majusculer()
                 + '</span>'
                 + ' &rarr; '
                 + '<span class="mot-' + langueDestination + '">'
-                + embelli[langueDestination]
+                + langueDestination.majusculer()
                 + '</span>'
           );
 }
 
 function htmlifier(mot, langue){
     var res = '<span class="mot-' + langue + '">' + mot[langue] + '</span>';
-    if (langue == "francais") {
+    if (langue == "français") {
         if ("genre" in mot){
             var genre = 'N' + mot["genre"].enMajuscules();
             res += ' <span class="genre">' + genre + '</span>';
@@ -47,10 +48,8 @@ function htmlifier(mot, langue){
     return res;
 }
 
-function construitListe(traductions) {
+function construireListe(traductions) {
     var langue = $( "#mots" ).attr("data-langue");
-
-    mettreÀJourLienInversion(langue);
 
     traductions = traductions["vrais mots"].concat(traductions["faux mots"]);
     // trier par ordre alphabétique de la langue de départ
@@ -108,7 +107,8 @@ function construitListe(traductions) {
 
 $(function() {
     $.recupererJSON( "traductions.json", function( traductions ) {
-        construitListe(traductions);
+        construireListe(traductions);
+        mettreÀJourLienInversion();
         $( "#lienInversion" ).clic( function() {inverser(traductions);} );
     });
 });

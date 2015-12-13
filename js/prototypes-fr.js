@@ -8,6 +8,7 @@ Chaine.prototype.enMinuscules = Chaine.prototype.toLowerCase
 Chaine.prototype.enMajuscules = Chaine.prototype.toUpperCase
 Chaine.prototype.remplacer = Chaine.prototype.replace
 Chaine.prototype.caractereA = Chaine.prototype.charAt
+Chaine.prototype.tranche = Chaine.prototype.slice
 Chaine.prototype.sansAccents = function () {
     // Faute d'une bibliotheque unidecode, nous nous limitons aux lettres
     // accentuées du français.
@@ -38,7 +39,9 @@ Chaine.prototype.sansAccents = function () {
         .remplacer("Ù", "U")
         .remplacer("Ü", "U");
 }
-
+Chaine.prototype.majusculer = function() {
+    return this.caractereA(0).enMajuscules() + this.tranche(1);
+}
 
 var Tableau = Array
 Tableau.prototype.trier = Tableau.prototype.sort
