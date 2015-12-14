@@ -5,7 +5,7 @@
         {"anglais": "Angle brackets", "français": "Chevrons", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Anti-pattern", "français": "Anti-patron", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Applet", "français": "Appliquette", "genre": "f", "classe": "groupe nominal", "pluriel": false},
-        {"anglais": "ASLR", "français": "Disposition Stochastique de l’espace d’addressage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "ASLR", "français": "Disposition Stochastique de l’espace d’adressage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Back office", "français": "Arrière-guichet", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Back-end services", "français": "Services dorsaux", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Backdoor", "français": "Porte dérobée", "genre": "f", "classe": "groupe nominal", "pluriel": false},
