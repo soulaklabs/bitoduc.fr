@@ -1,3 +1,8 @@
+/*
+ * Droits d'auteur 2015 Christophe-Marie Duquesne <chmd@chmd.fr>
+ * Droits d'auteur 2015 Valentin Lorentz <progval+github@progval.net>
+ */
+
 'use strict';
 
 $(function() {
