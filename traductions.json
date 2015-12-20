@@ -132,6 +132,7 @@
         {"anglais": "USB key", "français": "Mémorette", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Verbose", "français": "Volubile", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Version control system", "français": "Logiciel de gestion de versions", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Volunteer computing", "français": "Calcul bénévole", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Watchdog", "français": "Chien de garde", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Web", "français": "Toile", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Web cache", "français": "Cache-toile", "genre": "m", "classe": "groupe nominal", "pluriel": false},
