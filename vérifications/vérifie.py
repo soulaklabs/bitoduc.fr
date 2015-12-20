@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import json
 from jsonschema import validate as valide
 
@@ -13,7 +14,7 @@ def verifie_ordre(mots):
 def principal():
     with open('traductions.json') as f:
         d = json.load(f)
-    with open('schema.json') as f:
+    with open('vérifications/schéma.json') as f:
         schema = json.load(f)
     valide(d, schema)
     verifie_ordre(d['faux mots'])
