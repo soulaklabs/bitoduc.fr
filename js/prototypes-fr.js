@@ -1,3 +1,8 @@
+/*
+ * Droits d'auteur 2015 Valentin Lorentz <progval+github@progval.net>
+ * Droits d'auteur 2015 Christophe-Marie Duquesne <chmd@chmd.fr>
+ */
+
 'use strict';
 
 var Objet = Object

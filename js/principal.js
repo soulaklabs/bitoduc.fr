@@ -1,3 +1,11 @@
+/*
+ * Droits d'auteur 2013-2015 Guillaume Piolat <guillaume.piolat@gmail.com>
+ * Droits d'auteur 2013-2015 Etienne Millon <me@emillon.org>
+ * Droits d'auteur 2013-2015 Quentin Sabah <quentin.sabah@gmail.com>
+ * Droits d'auteur 2015      Christophe-Marie Duquesne <chmd@chmd.fr>
+ * Droits d'auteur 2015      Valentin Lorentz <progval+github@progval.net>
+ */
+
 'use strict';
 
 var réciproque = {'anglais': 'français', 'français': 'anglais'};
