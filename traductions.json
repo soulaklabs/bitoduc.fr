@@ -109,6 +109,7 @@
         {"anglais": "Scaling", "français": "Passage à l’échelle", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Selfie", "français": "Egoportrait", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Shareware", "français": "Partagiciel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Shell", "français": "Interprète de commandes", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Shell code", "français": "Code encoquillé", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Slash", "français": "Barre oblique", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Smart grids", "français": "Grilles malignes", "genre": "f", "classe": "groupe nominal", "pluriel": false},
