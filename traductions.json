@@ -63,6 +63,7 @@
         {"anglais": "God object", "français": "Objet omniscient", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Hacked", "français": "Intrusé", "genre": "m", "classe": "adjectif", "pluriel": false},
         {"anglais": "Hacker", "français": "Fouineur", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Hardening", "français": "Durcicement", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Hash", "français": "Condensat", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Hash table", "français": "Tableau à adressage dispersé", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Hashtag", "français": "Mot-croisillon", "genre": "m", "classe": "groupe nominal", "pluriel": false},
