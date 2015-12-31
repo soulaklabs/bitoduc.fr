@@ -160,6 +160,7 @@
         {"anglais": "RTFM (Read The Fucking Manual)", "français": "LPDM (Lis le Putain De Manuel)", "classe": "proposition"},
         {"anglais": "Smartphone", "français": "Malinphone", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Stand-up meeting", "français": "Réunion debout", "genre": "f", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Tablet", "français": "Planchette (tactile, digitale)", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "TIL (Today I Learnt)", "français": "AJA (Aujourd’hui J’ai Appris)", "classe": "proposition"},
         {"anglais": "To spoil", "français": "Divulgâcher", "classe": "verbe"},
         {"anglais": "Tweet", "français": "Gazouillis", "genre": "m", "classe": "groupe nominal", "pluriel": false},
