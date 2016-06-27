@@ -135,6 +135,7 @@
         {"anglais": "To reverse", "français": "Détricoter", "classe": "groupe verbal"},
         {"anglais": "Tuning", "français": "Bolidage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Tutorial", "français": "Didacticiel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Underscore", "français": "Sous-tiret", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Upload", "français": "Téléversement", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "URL", "français": "Adresse réticulaire", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "USB key", "français": "Mémorette", "genre": "f", "classe": "groupe nominal", "pluriel": false},
