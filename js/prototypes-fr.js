@@ -56,7 +56,7 @@ Tableau.prototype.pousser = Tableau.prototype.push
 document.créerÉlément = document.createElement
 document.récupérerÉlémentParNomDÉtiquette = document.getElementsByTagName;
 document.localisation = document.location;
-document.localisation.protocole = document.localisation.protocole;
+document.localisation.protocole = document.localisation.protocol;
 
 jQuery.fn.extend({
     clic: function (x) { return this.click(x); },
