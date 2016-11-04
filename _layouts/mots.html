@@ -1,0 +1,72 @@
+<a href="#ang-fra">Anglais-Français</a> - <a href="#fra-ang">Français-Anglais</a>
+
+<!-- Langue -->
+<h1><a name="ang-fra">Anglais-Français</a></h1>
+
+<!-- Index des lettres -->
+{% assign lettres = site.data.traductions['vrais mots'] | map :"anglais" | map slice :0 | uniq | sort %}
+{% for lettre in lettres %}
+<a href="#ang-fra-{{lettre}}">{{lettre}}</a>
+	{% unless forloop.last %}
+		-
+	{% endunless %}
+{% endfor %}
+
+<!-- Mots -->
+{% assign ang_fra = site.data.traductions['vrais mots'] | sort :"anglais" %}
+{% for trad in ang_fra %}
+	{% capture lettre %}{{ trad['anglais'] | slice :0 }}{% endcapture %}
+
+	{% if forloop.first %}
+<h2><a name="ang-fra-{{lettre}}">{{lettre}}</a></h2>
+<dl>
+	{% elsif lettre != lettre_avant %}
+</dl>
+<h2><a name="ang-fra-{{lettre}}">{{lettre}}</a></h2>
+<dl>
+	{% endif %}
+	{% assign lettre_avant = lettre %}
+
+<dt>{{ trad['anglais'] }}</dt>
+<dd>{{ trad['français'] }}</dd>
+
+	{% if forloop.last %}
+</dl>
+	{% endif %}
+{% endfor %}
+
+<!-- Langue -->
+<h1><a name="fra-ang">Français-Anglais</a></h1>
+
+<!-- Index des lettres -->
+{% assign lettres = site.data.traductions['vrais mots'] | map :"français" | map slice :0 | uniq | sort %}
+{% for lettre in lettres %}
+<a href="#fra-ang-{{lettre}}">{{lettre}}</a>
+	{% unless forloop.last %}
+		-
+	{% endunless %}
+{% endfor %}
+
+<!-- Mots -->
+{% assign fra_ang = site.data.traductions['vrais mots'] | sort :"français" %}
+{% for trad in fra_ang %}
+	{% capture lettre %}{{ trad['français'] | slice :0 }}{% endcapture %}
+
+	{% if forloop.first %}
+<h2><a name="fra-ang-{{lettre}}">{{lettre}}</a></h2>
+<dl>
+	{% elsif lettre != lettre_avant %}
+</dl>
+<h2><a name="fra-ang-{{lettre}}">{{lettre}}</a></h2>
+<dl>
+	{% endif %}
+	{% assign lettre_avant = lettre %}
+
+<dt>{{ trad['français'] }}</dt>
+<dd>{{ trad['anglais'] }}</dd>
+
+	{% if forloop.last %}
+</dl>
+	{% endif %}
+{% endfor %}
+
