@@ -54,6 +54,7 @@
         {"anglais": "Endianness", "français": "Boutisme", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Firewall", "français": "Pare-feu", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Firmware", "français": "Micrologiciel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Fix", "français": "Correction", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Flag", "français": "Fanion", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Flame", "français": "Propos incendiaire", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Flood", "français": "Matraquage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
