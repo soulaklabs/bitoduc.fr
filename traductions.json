@@ -139,6 +139,7 @@
         {"anglais": "TL;DR (Too Long; Didn't Read)" , "français": "TL;PL (Trop Long; Pas Lu)", "classe": "proposition"},
         {"anglais": "To deface", "français": "Défigurer", "classe": "groupe verbal"},
         {"anglais": "To reverse", "français": "Détricoter", "classe": "groupe verbal"},
+        {"anglais": "Touchpad", "français": "Pavé tactile", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Tuning", "français": "Bolidage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Tutorial", "français": "Didacticiel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Underscore", "français": "Sous-tiret", "genre": "m", "classe": "groupe nominal", "pluriel": false},
