@@ -115,6 +115,7 @@
         {"anglais": "Return oriented programming", "français": "Exploitation focalisée sur le retour", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Reverse proxy", "français": "Mandataire inverse", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Reverse-engineering", "français": "Ingénierie à rebours", "genre": "f", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Rollback", "français": "Rétrogalipette", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Rolling release", "français": "Publication continue", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "ROM (Read-Only Memory)", "français": "Mémoire morte", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Scale", "français": "Passe à l’échelle", "classe": "groupe verbal"},
