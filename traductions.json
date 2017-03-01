@@ -108,6 +108,7 @@
         {"anglais": "Podcasting", "français": "Balladodiffusion", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Polling", "français": "Attente active", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Polyfill", "français": "Prothèse d'émulation", "genre": "f", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Pool", "français": "Réserve", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Program counter", "français": "Compteur ordinal", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Proxy", "français": "Mandataire", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Refactoring", "français": "Réusinage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
