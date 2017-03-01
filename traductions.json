@@ -137,6 +137,7 @@
         {"anglais": "Stack overflow", "français": "Dépassement de pile", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Switch", "français": "Commutateur", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Tag", "français": "Étiquette", "genre": "f", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Thread", "français": "Fil d'exécution", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Thumbnail", "français": "Imagette", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "TL;DR (Too Long; Didn't Read)" , "français": "TL;PL (Trop Long; Pas Lu)", "classe": "proposition"},
         {"anglais": "To deface", "français": "Défigurer", "classe": "groupe verbal"},
