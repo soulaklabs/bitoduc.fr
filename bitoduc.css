@@ -117,3 +117,18 @@ a:visited
 {
     color: inherit;
 }
+
+dl {
+    list-style-type: disc;
+}
+dt:before {
+    content: "";
+    display: block;
+}
+dt:after {
+    content: ":";
+}
+dt, dd {
+    display: inline;
+    margin: 0;
+}
