@@ -87,12 +87,12 @@ h3
     width : 50%;
 }
 
-#index
+.index
 {
     text-align: center;
 }
 
-#index a
+.index a
 {
     font-size: larger;
     color: black;
@@ -101,7 +101,7 @@ h3
     position:relative;
 }
 
-#index a:hover
+.index a:hover
 {
     background-color: #999;
 }

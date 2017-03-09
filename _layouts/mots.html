@@ -1,16 +1,17 @@
-<a href="#ang-fra">Anglais-Français</a> - <a href="#fra-ang">Français-Anglais</a>
+{% include entete.html %}
+
+<a href="#ang-fra"><span class="mot-anglais">Anglais</span>-<span class="mot-français">Français</span></a> - <a href="#fra-ang"><span class="mot-anglais">Anglais</span>-<span class="mot-français">Français</span></a>
 
 <!-- Langue -->
-<h1><a name="ang-fra">Anglais-Français</a></h1>
+<h1><a name="ang-fra"><span class="mot-anglais">Anglais</span>-<span class="mot-français">Français</span></a></h1>
 
 <!-- Index des lettres -->
+<div class="index">
 {% assign lettres = site.data.traductions['vrais mots'] | map :"anglais" | map slice :0 | uniq | sort %}
 {% for lettre in lettres %}
 <a href="#ang-fra-{{lettre}}">{{lettre}}</a>
-	{% unless forloop.last %}
-		-
-	{% endunless %}
 {% endfor %}
+</div>
 
 <!-- Mots -->
 {% assign ang_fra = site.data.traductions['vrais mots'] | sort :"anglais" %}
@@ -18,34 +19,37 @@
 	{% capture lettre %}{{ trad['anglais'] | slice :0 }}{% endcapture %}
 
 	{% if forloop.first %}
+<div class="groupe-lettre">
 <h2><a name="ang-fra-{{lettre}}">{{lettre}}</a></h2>
 <dl>
 	{% elsif lettre != lettre_avant %}
 </dl>
+</div>
+<div class="groupe-lettre">
 <h2><a name="ang-fra-{{lettre}}">{{lettre}}</a></h2>
 <dl>
 	{% endif %}
 	{% assign lettre_avant = lettre %}
 
-<dt>{{ trad['anglais'] }}</dt>
-<dd>{{ trad['français'] }}</dd>
+<dt class="mot-anglais">{{ trad['anglais'] }}</dt>
+<dd class="mot-français">{{ trad['français'] }}</dd>
 
 	{% if forloop.last %}
 </dl>
+</div>
 	{% endif %}
 {% endfor %}
 
 <!-- Langue -->
-<h1><a name="fra-ang">Français-Anglais</a></h1>
+<h1><a name="fra-ang"><span class="mot-français">Français</span>-<span class="mot-anglais">Anglais</span></a></h1>
 
 <!-- Index des lettres -->
 {% assign lettres = site.data.traductions['vrais mots'] | map :"français" | map slice :0 | uniq | sort %}
+<div class="index">
 {% for lettre in lettres %}
 <a href="#fra-ang-{{lettre}}">{{lettre}}</a>
-	{% unless forloop.last %}
-		-
-	{% endunless %}
 {% endfor %}
+</div>
 
 <!-- Mots -->
 {% assign fra_ang = site.data.traductions['vrais mots'] | sort :"français" %}
@@ -53,20 +57,25 @@
 	{% capture lettre %}{{ trad['français'] | slice :0 }}{% endcapture %}
 
 	{% if forloop.first %}
+<div class="groupe-lettre">
 <h2><a name="fra-ang-{{lettre}}">{{lettre}}</a></h2>
 <dl>
 	{% elsif lettre != lettre_avant %}
 </dl>
+</div>
+<div class="groupe-lettre">
 <h2><a name="fra-ang-{{lettre}}">{{lettre}}</a></h2>
 <dl>
 	{% endif %}
 	{% assign lettre_avant = lettre %}
 
-<dt>{{ trad['français'] }}</dt>
-<dd>{{ trad['anglais'] }}</dd>
+<dt class="mot-français">{{ trad['français'] }}</dt>
+<dd class="mot-anglais">{{ trad['anglais'] }}</dd>
 
 	{% if forloop.last %}
 </dl>
+</div>
 	{% endif %}
 {% endfor %}
 
+{% include pied.html %}
