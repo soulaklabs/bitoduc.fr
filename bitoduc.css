@@ -87,12 +87,12 @@ h3
     width : 50%;
 }
 
-#index
+.index
 {
     text-align: center;
 }
 
-#index a
+.index a
 {
     font-size: larger;
     color: black;
@@ -101,7 +101,7 @@ h3
     position:relative;
 }
 
-#index a:hover
+.index a:hover
 {
     background-color: #999;
 }
@@ -113,7 +113,22 @@ h3
     border: 0;
 }
 
-a:visited
+a
 {
     color: inherit;
+}
+
+dl {
+    list-style-type: disc;
+}
+dt:before {
+    content: "";
+    display: block;
+}
+dt:after {
+    content: ":";
+}
+dt, dd {
+    display: inline;
+    margin: 0;
 }
