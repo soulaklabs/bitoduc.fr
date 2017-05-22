@@ -89,7 +89,7 @@
         {"anglais": "Library", "français": "Bibliothèque", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Little-endian", "français": "Petit boutien", "genre": "m", "classe": "adjectif", "pluriel": false},
         {"anglais": "Looks Good To Me (lgtm)", "français": "Ça Me Semble Bon (çmsb)", "genre": "m", "classe": "proposition", "pluriel": false},
-        {"anglais": "Lurker", "français": "Fureteur", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Lurker", "français": "Voyeur", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Malware", "français": "Maliciel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Man-in-the-middle attack", "français": "Attaque de l’homme du milieu", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Middleware", "français": "Intergiciel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
