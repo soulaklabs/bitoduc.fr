@@ -103,6 +103,7 @@
         {"anglais": "Overclocking", "français": "Surcadençage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Parsing", "français": "Analyse syntaxique", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Patch", "français": "Rustine logicielle", "genre": "f", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Perfect forward secrecy", "français": "Confidentialité persistante", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Pharming", "français": "Devoiement", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Phishing", "français": "Hameçonnage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Phishing attack", "français": "Attaque par filoutage", "genre": "f", "classe": "groupe nominal", "pluriel": false},
