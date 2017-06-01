@@ -29,7 +29,7 @@
         {"anglais": "Byte", "français": "Octet", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Cache memory", "français": "Antémémoire", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Callback function", "français": "Fonction de rappel", "genre": "f", "classe": "groupe nominal", "pluriel": false},
-        {"anglais": "Capitalization", "français": "Majusculation", "genre": "f", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Capitalization", "français": "Mise en capitales", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Cascading Style Sheets (CSS)", "français": "Feuilles de style en cascade", "genre": "f", "classe": "groupe nominal", "pluriel": true},
         {"anglais": "CDROM", "français": "Cédérom", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Checksum", "français": "Somme de contrôle", "genre": "f", "classe": "groupe nominal", "pluriel": false},
