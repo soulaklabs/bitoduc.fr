@@ -181,6 +181,7 @@
         {"anglais": "Laptop", "français": "Ordinateur de giron", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Lolcat", "français": "Chatmusant", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "NIH (Not Invented Here)", "français": "PII (Pas Inventé Ici)", "classe": "proposition"},
+        {"anglais": "Popup", "français": "Fenêtre ventouse", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Pull-request", "français": "Fusiodemande", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Rebase", "français": "Bouture", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "RTFM (Read The Fucking Manual)", "français": "LPDM (Lis le Putain De Manuel)", "classe": "proposition"},
