@@ -42,6 +42,7 @@
         {"anglais": "Connection Pool", "français": "Réserve de connexions", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Cookie", "français": "Témoin de connexion", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Core dump", "français": "Vidage de mémoire", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Crawler", "français": "Butineur", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Dangling pointer", "français": "Pointeur fou", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Database", "français": "Base de données", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "DDoS (Distributed Denial of Service)", "français": "DSD (Déni de Service Distribué)", "genre": "m", "classe": "groupe nominal", "pluriel": false},
