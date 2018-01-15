@@ -126,7 +126,7 @@ dt:before {
     display: block;
 }
 dt:after {
-    content: ":";
+    content: "\00a0:";
 }
 dt, dd {
     display: inline;
