@@ -21,6 +21,8 @@
         {"anglais": "Bloatware", "français": "Boufficiel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Blockchain", "français": "Chaîne de blocs", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Boot", "français": "Amorçage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Bootstrapping (compiler)", "français": "Compilogénèse", "genre": "f", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Bootstrapping (OS)", "français": "Autoamorçage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Browser", "français": "Navigateur", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Buffer", "français": "Tampon", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Buffer overflow", "français": "Dépassement de tampon", "genre": "m", "classe": "groupe nominal", "pluriel": false},
