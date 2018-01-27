@@ -169,6 +169,7 @@
         {"anglais": "Webcam", "français": "Cybercaméra", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Webmaster", "français": "Webmestre", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Wildcard", "français": "Joker", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Workaround", "français": "Contournement", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "XSS (Cross Site Scripting)", "français": "ICID (Injection de Code Indirect à Distance)", "genre": "f", "classe": "groupe nominal", "pluriel": false}
     ],
 
