@@ -139,6 +139,7 @@
         {"anglais": "Smiley", "français": "Émoticône", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "SOAP (Simple Object Access Protocol)", "français": "SAVON (Simple Accès Vers Objets Nuageux)", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "SoC (System-on-Chip)", "français": "Puce-système", "genre": "f", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Solver", "français": "Solveur", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Spam", "français": "Polluriel, pourriel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Spammer", "français": "Arroseur publicitaire", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Spinlock", "français": "Tourniquet", "genre": "m", "classe": "groupe nominal", "pluriel": false},
