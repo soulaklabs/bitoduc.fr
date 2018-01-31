@@ -17,8 +17,7 @@ def principal():
     with open('vérifications/schéma.json') as f:
         schema = json.load(f)
     valide(d, schema)
-    verifie_ordre(d['faux mots'])
-    verifie_ordre(d['vrais mots'])
+    verifie_ordre(d['mots'])
 
 
 if __name__ == '__main__':

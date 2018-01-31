@@ -1,14 +1,5 @@
-{ "type": "object",
-    "properties": {
-        "faux mots": {
-            "type": "array",
-            "items": {"$ref": "#/definitions/mot"}
-        },
-        "vrais mots": {
-            "type": "array",
-            "items": {"$ref": "#/definitions/mot"}
-        }
-    },
+{ "type": "array",
+    "items": {"$ref": "#/definitions/mot"},
     "definitions": {
         "mot": {
             "type": "object",
