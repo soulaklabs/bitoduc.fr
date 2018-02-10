@@ -12,7 +12,7 @@ def verifie_ordre(mots):
 
 
 def principal():
-    with open('traductions.json') as f:
+    with open('liste_de_traductions.json') as f:
         d = json.load(f)
     with open('vérifications/schéma.json') as f:
         schema = json.load(f)

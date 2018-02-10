@@ -113,7 +113,7 @@ function construireListe(traductions) {
 }
 
 $(function() {
-    $.récupérerJSON( "traductions.json", function( traductions ) {
+    $.récupérerJSON("liste_de_traductions.json", function(traductions) {
         construireListe(traductions);
         mettreÀJourLienInversion();
         $( "#lienInversion" ).clic( function() {inverser(traductions);} );
