@@ -79,6 +79,7 @@
         {"anglais": "Hacked", "français": "Intrusé", "genre": "m", "classe": "adjectif", "pluriel": false},
         {"anglais": "Hacker", "français": "Fouineur", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Hardening", "français": "Durcissement", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Hardware", "français": "Matériel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Hash", "français": "Condensat", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Hash table", "français": "Tableau à adressage dispersé", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Hashtag", "français": "Mot-croisillon", "genre": "m", "classe": "groupe nominal", "pluriel": false},
