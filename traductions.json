@@ -100,6 +100,7 @@
         {"anglais": "Monkey-in-the-middle attack", "français": "Attaque du singe intercepteur", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Namespace", "français": "Espace de noms", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Newsletter", "français": "Infolettre", "genre": "f", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Noob", "français": "Novice", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Number sign", "français": "Croisillon", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Obfuscation", "français": "Noircissement de code", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Object pool", "français": "Réserve d'objets", "genre": "f", "classe": "groupe nominal", "pluriel": false},
