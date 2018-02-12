@@ -59,7 +59,6 @@ function htmlifier(mot, langue){
 function construireListe(traductions) {
     var langue = $( "#mots" ).attr("data-langue");
 
-    traductions = traductions["vrais mots"].concat(traductions["faux mots"]);
     // trier par ordre alphabétique de la langue de départ
     traductions.trier(function(traduction1, traduction2){
         var s1 = traduction1[langue].enMinuscules().sansAccents();
@@ -114,7 +113,7 @@ function construireListe(traductions) {
 }
 
 $(function() {
-    $.récupérerJSON( "traductions.json", function( traductions ) {
+    $.récupérerJSON("liste_de_traductions.json", function(traductions) {
         construireListe(traductions);
         mettreÀJourLienInversion();
         $( "#lienInversion" ).clic( function() {inverser(traductions);} );

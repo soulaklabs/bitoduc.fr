@@ -12,13 +12,12 @@ def verifie_ordre(mots):
 
 
 def principal():
-    with open('traductions.json') as f:
+    with open('liste_de_traductions.json') as f:
         d = json.load(f)
     with open('vérifications/schéma.json') as f:
         schema = json.load(f)
     valide(d, schema)
-    verifie_ordre(d['faux mots'])
-    verifie_ordre(d['vrais mots'])
+    verifie_ordre(d)
 
 
 if __name__ == '__main__':
