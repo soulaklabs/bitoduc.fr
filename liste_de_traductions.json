@@ -81,6 +81,7 @@
     {"anglais": "Fuzzer", "français": "Générateur d’anomalies", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Fuzzing", "français": "Frelatage en masse", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "GC (Garbage Collector)", "français": "Ramasse-miettes, glaneur de cellule", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+    {"anglais": "GDPR (General Data Protection Regulation)", "français": "RGPD (Règlement Général sur la Protection des Données)", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Glue code", "français": "Code ciment", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "God object", "français": "Objet omniscient", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Hacked", "français": "Intrusé", "genre": "m", "classe": "adjectif", "pluriel": false},
