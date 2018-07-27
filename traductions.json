@@ -60,6 +60,7 @@
         {"anglais": "Double word", "français": "Trente-deuzet", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Download", "français": "Téléchargement", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "E-mail", "français": "Courriel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Edit", "français": "Modifier", "classe": "verbe"},
         {"anglais": "Endianness", "français": "Boutisme", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Firewall", "français": "Pare-feu", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Firmware", "français": "Micrologiciel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
