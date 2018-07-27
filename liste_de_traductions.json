@@ -59,6 +59,7 @@
     {"anglais": "Desktop", "français": "Ordinateur de bureau", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Device", "français": "Appareil", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Digital", "français": "Numérique", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+    {"anglais": "Docker", "français": "Marcel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "DoS (Denial of Service)", "français": "Déni de Service", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Double word", "français": "Trente-deuzet", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Download", "français": "Téléchargement", "genre": "m", "classe": "groupe nominal", "pluriel": false},
