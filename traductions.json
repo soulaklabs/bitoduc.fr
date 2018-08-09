@@ -24,6 +24,7 @@
         {"anglais": "Bootstrapping (compiler)", "français": "Compilogénèse", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Bootstrapping (OS)", "français": "Autoamorçage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Browser", "français": "Navigateur", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Brute force attack", "français": "Attaque exhaustive", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Buffer", "français": "Tampon", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Buffer overflow", "français": "Dépassement de tampon", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Bug", "français": "Bogue", "genre": "m", "classe": "groupe nominal", "pluriel": false},
