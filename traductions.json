@@ -36,7 +36,7 @@
         {"anglais": "Capitalization", "français": "Majusculation", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Cascading Style Sheets (CSS)", "français": "Feuilles de style en cascade", "genre": "f", "classe": "groupe nominal", "pluriel": true},
         {"anglais": "CDROM", "français": "Cédérom", "genre": "m", "classe": "groupe nominal", "pluriel": false},
-        {"anglais": "CEO Fraud", "français": "Fraude au président", "genre": "f", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "CEO Fraud", "français": "Fraude au PDG", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Checksum", "français": "Somme de contrôle", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Cherry pick", "français": "Picorage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Chipset", "français": "Jeu de puces", "genre": "m", "classe": "groupe nominal", "pluriel": false},
