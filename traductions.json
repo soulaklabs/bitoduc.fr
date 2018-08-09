@@ -127,6 +127,7 @@
         {"anglais": "Proxy", "français": "Mandataire", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Refactoring", "français": "Réusinage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Repository", "français": "Dépôt", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Responsive", "français": "Adaptatif", "genre": "m", "classe": "adjectif", "pluriel": false},
         {"anglais": "Return oriented programming", "français": "Exploitation focalisée sur le retour", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Reverse proxy", "français": "Mandataire inverse", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Reverse-engineering", "français": "Ingénierie à rebours", "genre": "f", "classe": "groupe nominal", "pluriel": false},
