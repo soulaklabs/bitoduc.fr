@@ -164,6 +164,8 @@
     {"anglais": "Stack cookie", "français": "Biscuit de pile", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Stack overflow", "français": "Dépassement de pile", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Stand-up meeting", "français": "Réunion debout", "genre": "f", "classe": "groupe nominal", "pluriel": false},
+    {"anglais": "Stateful", "français": "À états", "genre": "m", "classe": "adjectif", "pluriel": false},
+    {"anglais": "Stateless", "français": "Sans état", "genre": "m", "classe": "adjectif", "pluriel": false},
     {"anglais": "Switch", "français": "Commutateur", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Tablet", "français": "Planchette (tactile, digitale)", "genre": "f", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Tag", "français": "Étiquette", "genre": "f", "classe": "groupe nominal", "pluriel": false},
