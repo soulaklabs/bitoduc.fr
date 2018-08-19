@@ -55,6 +55,7 @@
         {"anglais": "Deadlock", "français": "Interblocage", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Debugger", "français": "Dévermineur", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Deep learning", "français": "Apprentissage profond", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Deprecated", "français": "Ringardisé", "genre": "m", "classe": "adjectif", "pluriel": false},
         {"anglais": "Desktop", "français": "Ordinateur de bureau", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Device", "français": "Appareil", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Digital", "français": "Numérique", "genre": "m", "classe": "groupe nominal", "pluriel": false},
