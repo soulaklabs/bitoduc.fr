@@ -136,6 +136,7 @@
         {"anglais": "Refactoring", "français": "Réusinage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Repository", "français": "Dépôt", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Responsive", "français": "Adaptatif", "genre": "m", "classe": "adjectif", "pluriel": false},
+        {"anglais": "REST (REpresentational State Transfer)", "français": "REPOS (Représentation d'État Partagée par des Objets Situés)", "genre": "m", "classe": "nom commun", "pluriel": false},
         {"anglais": "Return oriented programming", "français": "Exploitation focalisée sur le retour", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Reverse proxy", "français": "Mandataire inverse", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Reverse-engineering", "français": "Ingénierie à rebours", "genre": "f", "classe": "groupe nominal", "pluriel": false},
@@ -208,6 +209,7 @@
         {"anglais": "TIL (Today I Learnt)", "français": "AJA (Aujourd’hui J’ai Appris)", "classe": "proposition"},
         {"anglais": "To spoil", "français": "Divulgâcher", "classe": "verbe"},
         {"anglais": "Tweet", "français": "Gazouillis", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Toot", "français": "Pouet", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Walled garden", "français": "Jardin secret, communauté prison", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Wrapper", "français": "Métascript", "genre": "m", "classe": "groupe nominal", "pluriel": false}
     ]
