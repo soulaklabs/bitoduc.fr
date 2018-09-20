@@ -150,6 +150,7 @@
         {"anglais": "Shareware", "français": "Partagiciel", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Shell", "français": "Interprète de commandes", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Shell code", "français": "Code encoquillé", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "Shitpost", "français": "Cacapostage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Slash", "français": "Barre oblique", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Smart grids", "français": "Grilles malignes", "genre": "f", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Smiley", "français": "Émoticône", "genre": "f", "classe": "groupe nominal", "pluriel": false},
