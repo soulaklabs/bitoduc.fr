@@ -130,6 +130,7 @@
         {"anglais": "Program counter", "français": "Compteur ordinal", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Proxy", "français": "Mandataire", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Refactoring", "français": "Réusinage", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+        {"anglais": "REPL", "français": "BLEA (Boucle de Lecture, Evaluation et Affichage)", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Repository", "français": "Dépôt", "genre": "m", "classe": "groupe nominal", "pluriel": false},
         {"anglais": "Responsive", "français": "Adaptatif", "genre": "m", "classe": "adjectif", "pluriel": false},
         {"anglais": "Return oriented programming", "français": "Exploitation focalisée sur le retour", "genre": "f", "classe": "groupe nominal", "pluriel": false},
