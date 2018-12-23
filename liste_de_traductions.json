@@ -60,6 +60,7 @@
     {"anglais": "Cryptocoin", "français": "Cybersou", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Cryptoparty", "français": "Chiffrofête", "genre": "f", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Cryptography", "français": "Chiffrement", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+    {"anglais": "Cybernaut", "français": "Internaute", "genre": "n", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Cybersquatting", "français": "Accaparement de nom de domaine", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Dangling pointer", "français": "Pointeur fou", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Dark net", "français": "Internet clandestin", "genre": "f", "classe": "groupe nominal", "pluriel": false},
