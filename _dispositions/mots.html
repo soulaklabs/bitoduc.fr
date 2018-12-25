@@ -5,14 +5,14 @@
 
 <!-- Index des lettres -->
 <div class="index">
-{% assign lettres = site.data.traductions['vrais mots'] | map :"anglais" | map slice :0 | uniq | sort %}
+{% assign lettres = site.data.liste_de_traductions | map :"anglais" | map slice :0 | uniq | sort %}
 {% for lettre in lettres %}
 <a href="#ang-fra-{{lettre}}">{{lettre}}</a>
 {% endfor %}
 </div>
 
 <!-- Mots -->
-{% assign ang_fra = site.data.traductions['vrais mots'] | sort :"anglais" %}
+{% assign ang_fra = site.data.liste_de_traductions | sort :"anglais" %}
 {% for trad in ang_fra %}
 	{% capture lettre %}{{ trad['anglais'] | slice :0 }}{% endcapture %}
 
@@ -42,7 +42,7 @@
 <h1><a name="fra-ang"><span class="mot-français">Français</span>-<span class="mot-anglais">Anglais</span></a></h1>
 
 <!-- Index des lettres -->
-{% assign lettres = site.data.traductions['vrais mots'] | map :"français" | map slice :0 | uniq | sort %}
+{% assign lettres = site.data.liste_de_traductions | map :"français" | map slice :0 | uniq | sort %}
 <div class="index">
 {% for lettre in lettres %}
 <a href="#fra-ang-{{lettre}}">{{lettre}}</a>
@@ -50,7 +50,7 @@
 </div>
 
 <!-- Mots -->
-{% assign fra_ang = site.data.traductions['vrais mots'] | sort :"français" %}
+{% assign fra_ang = site.data.liste_de_traductions | sort :"français" %}
 {% for trad in fra_ang %}
 	{% capture lettre %}{{ trad['français'] | slice :0 }}{% endcapture %}
 
