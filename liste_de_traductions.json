@@ -117,6 +117,7 @@
     {"anglais": "Initial Coin Offering (ICO)", "français": "Crypto-émission de titres", "genre": "f", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Instruction pipeline", "français": "Instruoduc", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Internet of things", "français": "Internet des objets", "genre": "m", "classe": "groupe nominal", "pluriel": false},
+    {"anglais": "JIT compiler", "français": "Compilateur à la volée", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Laptop", "français": "Ordinateur de giron", "genre": "m", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Lazy evaluation", "français": "Évaluation paresseuse", "genre": "f", "classe": "groupe nominal", "pluriel": false},
     {"anglais": "Legacy", "français": "Legs", "genre": "m", "classe": "nom propre", "pluriel": false},
