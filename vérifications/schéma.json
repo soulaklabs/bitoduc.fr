@@ -19,7 +19,7 @@
                 },
                 "genre": {
                     "type": "string",
-                    "enum": ["f", "m"]
+                    "enum": ["f", "m", "n"]
                 },
                 "pluriel": {"type": "boolean"}
             },
