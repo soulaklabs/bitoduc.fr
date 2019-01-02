@@ -5,7 +5,7 @@
             "type": "object",
             "properties":
             {
-                "anglais": {"type": "string"}, 
+                "anglais": {"type": "string"},
                 "français": {"type": "string"},
                 "classe": {
                     "type": "string",
@@ -13,13 +13,14 @@
                         "adjectif",
                         "groupe nominal",
                         "groupe verbal",
+                        "nom propre",
                         "proposition",
                         "verbe"
                     ]
                 },
                 "genre": {
                     "type": "string",
-                    "enum": ["f", "m"]
+                    "enum": ["f", "m", "n"]
                 },
                 "pluriel": {"type": "boolean"}
             },
