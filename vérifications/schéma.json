@@ -22,8 +22,7 @@
                 "genre": {
                     "type": "string",
                     "enum": ["f", "m", "n"]
-                },
-                "pluriel": {"type": "boolean"}
+                }
             },
             "required": ["anglais", "français", "classe"]
         }
