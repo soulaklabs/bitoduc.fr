@@ -174,6 +174,7 @@
     {"anglais": "Revenge porn", "français": "Pornodivulgation", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Reverse proxy", "français": "Mandataire inverse", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Reverse-engineering", "français": "Ingénierie à rebours", "genre": "f", "classe": "groupe nominal"},
+    {"anglais": "Rollback", "français": "Rétropédalage", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Rolling release", "français": "Publication continue", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "ROM (Read-Only Memory)", "français": "Mémoire morte", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "RTFM (Read The Fucking Manual)", "français": "LPDM (Lis le Putain De Manuel)", "classe": "proposition"},
