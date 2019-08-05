@@ -128,7 +128,7 @@
     {"anglais": "Log", "français": "Journal", "genre": "m", "classe": "nom propre"},
     {"anglais": "Lolcat", "français": "Chatmusant", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Looks Good To Me (LGTM)", "français": "Ça Me Semble Bon (ÇMSB)", "genre": "m", "classe": "proposition"},
-    {"anglais": "Lurker", "français": "Fureteur", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "Lurker", "français": "Sous-Marineur", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Malware", "français": "Maliciel", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Man-in-the-middle attack (MITM)", "français": "Attaque de l’homme du milieu (HDM)", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Mapping", "français": "Correspondance", "genre": "f", "classe": "nom propre"},
