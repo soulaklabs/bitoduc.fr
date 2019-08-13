@@ -46,7 +46,7 @@
     {"anglais": "Cherry pick", "français": "Picorage", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Chief Data Officer (CDO)", "français": "Directeur/-trice des données (CDD)", "genre": "n", "classe": "groupe nominal"},
     {"anglais": "Chipset", "français": "Jeu de puces", "genre": "m", "classe": "groupe nominal"},
-    {"anglais": "Clickjacking", "français": "Détournement de clic", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "Clickjacking", "français": "Escrocliquerie", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Cloud computing", "français": "Infonuagique", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Cluster", "français": "Grappe", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Commit", "français": "Atome de code", "genre": "m", "classe": "groupe nominal"},
