@@ -18,6 +18,7 @@
     {"anglais": "Big data", "français": "Mégadonnées", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Big-endian", "français": "Grand boutien", "genre": "m", "classe": "adjectif"},
     {"anglais": "Binding", "français": "Reliage", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "Bit (Binary digit)", "français": "Chibi", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Bloatware", "français": "Boufficiel", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Blockchain", "français": "DEEP (Dispositif d'Enregistrement Électronique partagé)", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Boot", "français": "Amorçage", "genre": "m", "classe": "groupe nominal"},
