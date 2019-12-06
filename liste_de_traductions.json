@@ -121,6 +121,7 @@
     {"anglais": "Instruction pipeline", "français": "Instruoduc", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Internet of things", "français": "Internet des objets", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "JIT compiler", "français": "Compilateur à la volée", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "LAN party", "français": "Soirée localudique", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Laptop", "français": "Ordinateur de giron", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Lazy evaluation", "français": "Évaluation paresseuse", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Legacy", "français": "Legs", "genre": "m", "classe": "nom propre"},
