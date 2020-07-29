@@ -1,7 +1,7 @@
 language: python
 python: "3.5"
-install: pip install -r "vérifications/besoins.txt"
-script: python "vérifications/vérifie.py"
+install: pip install -r v\xC3\xC9rifications/besoins.txt
+script: python v\xC3\xC9rifications/v\xC3\xC9rifie.py
 branches:
   only:
     - gh-pages
