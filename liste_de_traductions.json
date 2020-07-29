@@ -214,6 +214,7 @@
     {"anglais": "TIL (Today I Learnt)", "français": "AJA (Aujourd’hui J’ai Appris)", "classe": "proposition"},
     {"anglais": "TL;DR (Too Long; Didn't Read)" , "français": "TL;PL (Trop Long; Pas Lu)", "classe": "proposition"},
     {"anglais": "To deface", "français": "Défigurer", "classe": "groupe verbal"},
+    {"anglais": "TODO", "français": "YAKA", "classe": "proposition"},
     {"anglais": "To reverse", "français": "Détricoter", "classe": "groupe verbal"},
     {"anglais": "To spoil", "français": "Divulgâcher", "classe": "verbe"},
     {"anglais": "Touchpad", "français": "Pavé tactile", "genre": "m", "classe": "groupe nominal"},
