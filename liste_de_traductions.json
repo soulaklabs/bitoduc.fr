@@ -177,7 +177,7 @@
     {"anglais": "Return oriented programming", "français": "Exploitation focalisée sur le retour", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Revenge porn", "français": "Pornodivulgation", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Reverse proxy", "français": "Mandataire inverse", "genre": "m", "classe": "groupe nominal"},
-    {"anglais": "Reverse-engineering", "français": "Ingénierie à rebours", "genre": "f", "classe": "groupe nominal"},
+    {"anglais": "Reverse-engineering", "français": "Rétro-ingénierie", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Rollback", "français": "Rétropédalage", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Rolling release", "français": "Publication continue", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "ROM (Read-Only Memory)", "français": "Mémoire morte", "genre": "f", "classe": "groupe nominal"},
