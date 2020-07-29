@@ -240,4 +240,5 @@
     {"anglais": "Wildcard", "français": "Joker", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Workaround", "français": "Contournement", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "XSS (Cross Site Scripting)", "français": "ICID (Injection de Code Indirect à Distance)", "genre": "f", "classe": "groupe nominal"}
+    {"anglais": "Push notification", "français": "Notification poussée", "genre": "f", "classe": "groupe nominal"}
 ]
