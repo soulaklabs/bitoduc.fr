@@ -208,6 +208,7 @@
     {"anglais": "Switch", "français": "Commutateur", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Tablet", "français": "Planchette (tactile, digitale)", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Tag", "français": "Étiquette", "genre": "f", "classe": "groupe nominal"},
+    {"anglais": "Tainting analysis", "français": "Contaminanalyse", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Thread", "français": "Fil d'exécution", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Thread pool", "français": "Réserve de fils d'exécution", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Thumbnail", "français": "Imagette", "genre": "f", "classe": "groupe nominal"},
