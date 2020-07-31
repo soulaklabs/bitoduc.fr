@@ -95,7 +95,7 @@
     {"anglais": "Flame", "français": "Propos incendiaire", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Flood", "français": "Matraquage", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Fork", "français": "Scission", "genre": "f", "classe": "groupe nominal"},
-    {"anglais": "FPGA (Field-Programmable Gate Array)", "français": "CIPP (Circuit Intégré Prédiffusé Programmable)", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "FPGA (Field-Programmable Gate Array)", "français": "MPRI (Matrice de Portes logique, Reconfigurable In-situ)", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Framework", "français": "Cadriciel", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Freeware", "français": "Gratuiciel", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Front office", "français": "Guichet", "genre": "m", "classe": "groupe nominal"},
