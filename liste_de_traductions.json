@@ -31,6 +31,7 @@
     {"anglais": "Buffer", "français": "Tampon", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Buffer overflow", "français": "Dépassement de tampon", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Bug", "français": "Bogue", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "Bullshit", "français": "Billevesée", "genre": "f", "classe": "nom commun"},
     {"anglais": "Bundle", "français": "Colis", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Buzz", "français": "Ramdam", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Buzzword", "français": "Mot à la mode", "genre": "m", "classe": "groupe nominal"},
