@@ -103,6 +103,7 @@
     {"anglais": "Fuzzing", "français": "Frelatage en masse", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "GC (Garbage Collector)", "français": "Ramasse-miettes, glaneur de cellule", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "GDPR (General Data Protection Regulation)", "français": "RGPD (Règlement Général sur la Protection des Données)", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "git (pejoratively-named distributed version-control system, optionally meaning 'global information tracker')", "français": "con (système de contrôle de versions avec un nom péjoratif, optionnellement signifiant 'CONtrôleur de versions')", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Glue code", "français": "Code ciment", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "God object", "français": "Objet omniscient", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Hacked", "français": "Intrusé", "genre": "m", "classe": "adjectif"},
