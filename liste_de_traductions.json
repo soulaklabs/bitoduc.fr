@@ -4,6 +4,7 @@
     {"anglais": "Anti-pattern", "français": "Anti-patron", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "API (Application Programming Interface)", "français": "IPA (Interface de Programmation Applicative)", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Applet", "français": "Appliquette", "genre": "f", "classe": "groupe nominal"},
+    {"anglais": "ASIC", "français": "CISA (Circuit Intégré Spécifique à une Application)", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "ASLR", "français": "Disposition Stochastique de l’espace d’adressage", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Assignation", "français": "Affectation", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Back office", "français": "Arrière-guichet", "genre": "m", "classe": "groupe nominal"},
