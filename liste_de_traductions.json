@@ -136,7 +136,7 @@
     {"anglais": "Man-in-the-middle attack (MITM)", "français": "Attaque de l’homme du milieu (HDM)", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Mapping", "français": "Correspondance", "genre": "f", "classe": "nom propre"},
     {"anglais": "Mash-up", "français": "Pot-pourriciel", "genre": "m", "classe": "groupe nominal"},
-    {"anglais": "Merge", "français": "Fusion", "genre": "f", "class": "groupe nominal"},
+    {"anglais": "Merge", "français": "Fusion", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Middleware", "français": "Intersticiel", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Monkey-in-the-middle attack", "français": "Attaque du singe intercepteur", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Mouse jacking", "français": "Vol à la souris", "genre": "m", "classe": "groupe nominal"},
