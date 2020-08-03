@@ -61,7 +61,7 @@
     {"anglais": "Crawler", "français": "Butineur", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Crypto-currency", "français": "Crypto-monnaie", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Cryptocoin", "français": "Cybersou", "genre": "m", "classe": "groupe nominal"},
-    {"anglais": "Cryptography", "français": "Chiffrement", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "Cryptography", "français": "Cryptographie", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Cryptoparty", "français": "Chiffrofête", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Cybernaut", "français": "Internaute", "genre": "n", "classe": "groupe nominal"},
     {"anglais": "Cybersquatting", "français": "Accaparement de nom de domaine", "genre": "m", "classe": "groupe nominal"},
