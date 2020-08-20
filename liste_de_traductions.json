@@ -196,6 +196,7 @@
     {"anglais": "Sniffer", "français": "Renifleur", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "SOAP (Simple Object Access Protocol)", "français": "SAVON (Simple Accès Vers Objets Nuageux)", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "SoC (System-on-Chip)", "français": "Puce-système", "genre": "f", "classe": "groupe nominal"},
+    {"anglais": "Socket", "français": "Donnécteur", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Software", "français": "Logiciel", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Solver", "français": "Solveur", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Spam", "français": "Polluriel, pourriel", "genre": "m", "classe": "groupe nominal"},
