@@ -43,6 +43,7 @@
     {"anglais": "Cascading Style Sheets (CSS)", "français": "Feuilles de style en cascade", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "CDROM", "français": "Cédérom", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "CEO Fraud", "français": "Fraude au PDG", "genre": "f", "classe": "groupe nominal"},
+    {"anglais": "Chat", "français": "CATE (Conversoir A Textes Ecrits)", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Chatterbot", "français": "Discutomate", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Checksum", "français": "Somme de contrôle", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Cherry pick", "français": "Picorage", "genre": "m", "classe": "groupe nominal"},
