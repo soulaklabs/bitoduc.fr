@@ -12,6 +12,7 @@
     {"anglais": "Backdoor", "français": "Porte dérobée", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Backport", "français": "Rétroportage", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Backslash", "français": "Barre oblique inversée", "genre": "f", "classe": "groupe nominal"},
+    {"anglais": "Bagging", "français": "Ensachage", "genre": "m", "classe": "nom commun"},
     {"anglais": "BBS (Bulletin Board System)", "français": "Babillard électronique", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Beautifier", "français": "Enjoliveur", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Benchmark", "français": "Banc d’essai", "genre": "m", "classe": "groupe nominal"},
