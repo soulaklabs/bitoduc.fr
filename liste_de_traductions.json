@@ -65,7 +65,7 @@
     {"anglais": "Cryptoparty", "français": "Chiffrofête", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Cybernaut", "français": "Internaute", "genre": "n", "classe": "groupe nominal"},
     {"anglais": "Cybersquatting", "français": "Accaparement de nom de domaine", "genre": "m", "classe": "groupe nominal"},
-    {"anglais": "Dangling pointer", "français": "Pointeur fou", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "Dangling pointer", "français": "Pointeur sautillant", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Dark net", "français": "Internet clandestin", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Data scientist", "français": "Expert·e en mégadonnées", "genre": "n", "classe": "groupe nominal"},
     {"anglais": "Database", "français": "Base de données", "genre": "f", "classe": "groupe nominal"},
