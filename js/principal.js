@@ -4,6 +4,8 @@
  * Droits d'auteur 2013-2015 Quentin Sabah <quentin.sabah@gmail.com>
  * Droits d'auteur 2015      Christophe-Marie Duquesne <chmd@chmd.fr>
  * Droits d'auteur 2015      Valentin Lorentz <progval+github@progval.net>
+ *
+ * Attention, ce fichier est désuet depuis la migration vers les pages de GitHub.
  */
 
 'use strict';
@@ -23,21 +25,22 @@ function mettreÀJourLienInversion() {
     var langueDestination = réciproque[langue];
     $( "#lienInversion" )
         .html(
-                '<span class="mot-' + langueSource + '">'
-                + langueSource.majusculer()
+                '<span class="mot-' + désamorcerLeHtml(langueSource) + '">'
+                + désamorcerLeHtml(langueSource.majusculer())
                 + '</span>'
                 + ' &rarr; '
-                + '<span class="mot-' + langueDestination + '">'
-                + langueDestination.majusculer()
+                + '<span class="mot-' + désamorcerLeHtml(langueDestination) + '">'
+                + désamorcerLeHtml(langueDestination.majusculer())
                 + '</span>'
           );
 }
 
 function htmlifier(mot, langue){
-    var res = '<span class="mot-' + langue + '">' + mot[langue] + '</span>';
+    var res = '<span class="mot-' + désamorcerLeHtml(langue) + '">';
+    res += désamorcerLeHtml(mot[langue]) + '</span>';
     if (langue == "français") {
         if ("genre" in mot){
-            var genre = 'N' + mot["genre"].enMajuscules();
+            var genre = désamorcerLeHtml('N' + mot["genre"].enMajuscules());
             res += ' <span class="genre">' + genre + '</span>';
         }
         if ("classe" in mot){
@@ -110,6 +113,15 @@ function construireListe(traductions) {
                         )
             );
     }
+}
+
+function désamorcerLeHtml(suspect) {
+    return suspect
+        .remplacer(/&/g, "&amp;")
+        .remplacer(/</g, "&lt;")
+        .remplacer(/>/g, "&gt;")
+        .remplacer(/'/g, "&#39;")
+        .remplacer(/"/g, "&quot;");
 }
 
 $(function() {
