@@ -101,6 +101,7 @@
     {"anglais": "Front office", "français": "Guichet", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Fuzzer", "français": "Générateur d’anomalies", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Fuzzing", "français": "Frelatage en masse", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "GAFAM (Google Amazon Facebook Apple Microsoft)", "français": "CASSOS (Capgemini, Atos, Sopra Steria, Orange, Sia partners)", "classe": "proposition"},
     {"anglais": "GC (Garbage Collector)", "français": "Ramasse-miettes, glaneur de cellule", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "GDPR (General Data Protection Regulation)", "français": "RGPD (Règlement Général sur la Protection des Données)", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Glue code", "français": "Code ciment", "genre": "m", "classe": "groupe nominal"},
