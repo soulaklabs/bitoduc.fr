@@ -109,6 +109,7 @@
     {"anglais": "Hacked", "français": "Intrusé", "genre": "m", "classe": "adjectif"},
     {"anglais": "Hacker", "français": "Fouineur", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Hackerspace", "français": "Bidouillieu", "genre" : "m", "classe": "groupe nominal"},
+    {"anglais": "Hacktoberfest", "français": "Fête d'Octobidouille", "genre" : "f", "classe": "groupe nominal"},
     {"anglais": "Hardening", "français": "Durcissement", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Hardware", "français": "Matériel", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Hash", "français": "Condensat", "genre": "m", "classe": "groupe nominal"},
