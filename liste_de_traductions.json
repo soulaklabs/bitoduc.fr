@@ -145,7 +145,7 @@
     {"anglais": "NIH (Not Invented Here)", "français": "PII (Pas Inventé Ici)", "classe": "proposition"},
     {"anglais": "Noob", "français": "Novice", "classe": "groupe nominal"},
     {"anglais": "Number sign", "français": "Croisillon", "genre": "m", "classe": "groupe nominal"},
-    {"anglais": "Obfuscation", "français": "Noircissement de code", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "Obfuscation", "français": "Offuscation", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Object pool", "français": "Réserve d'objets", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Online chat", "français": "Clavardage", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Overclocking", "français": "Surcadençage", "genre": "m", "classe": "groupe nominal"},
