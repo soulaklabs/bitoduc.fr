@@ -137,7 +137,7 @@
     {"anglais": "Mapping", "français": "Correspondance", "genre": "f", "classe": "nom propre"},
     {"anglais": "Mash-up", "français": "Pot-pourriciel", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Merge-request", "français": "Fusiodemande", "genre": "f", "classe": "groupe nominal"},
-    {"anglais": "Middleware", "français": "Intersticiel", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "Middleware", "français": "Intergiciel", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Monkey-in-the-middle attack", "français": "Attaque du singe intercepteur", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Mouse jacking", "français": "Vol à la souris", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Namespace", "français": "Espace de noms", "genre": "m", "classe": "groupe nominal"},
