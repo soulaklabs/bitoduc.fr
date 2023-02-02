@@ -228,6 +228,7 @@
     {"anglais": "Typosquatting", "français": "Faute de frappe opportuniste", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Underscore", "français": "Sous-tiret", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Upload", "français": "Téléversement", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "Union-find", "français": "Unit-trouve", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "URL", "français": "Adresse réticulaire", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "USB key", "français": "Mémorette", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "User Interface (UI)", "français": "Interface Homme-Machine (IHM)", "genre": "f", "classe": "groupe nominal"},
