@@ -79,6 +79,7 @@
     {"anglais": "Device", "français": "Appareil", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Digital", "français": "Numérique", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "DoS (Denial of Service)", "français": "Déni de Service", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "Dogfooding", "français": "Croquer ses croquettes", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Double word", "français": "Trente-deuzet", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Download", "français": "Téléchargement", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Downloadable Content (DLC)", "français": "Contenu Téléchargeable Additionnel (CTA)", "genre": "m", "classe": "groupe nominal"},
