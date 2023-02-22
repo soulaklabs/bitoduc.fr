@@ -23,6 +23,7 @@
     {"anglais": "Bloatware", "français": "Boufficiel", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Blockchain", "français": "DEEP (Dispositif d'Enregistrement Électronique partagé)", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Boot", "français": "Amorçage", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "Bootloader", "français": "Chargeur d'amorçage", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Bootstrapping (compiler)", "français": "Compilogénèse", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Bootstrapping (OS)", "français": "Autoamorçage", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Bot", "français": "Automate", "genre": "m", "classe": "groupe nominal"},
