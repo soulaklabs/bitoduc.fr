@@ -27,6 +27,7 @@
     {"anglais": "Bootstrapping (OS)", "français": "Autoamorçage", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Bot", "français": "Automate", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Branch merging", "français": "Fusion de branches", "genre": "f", "classe": "groupe nominal"},
+    {"anglais": "Breadcrumb", "français": "Fil d'ariane", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Browser", "français": "Navigateur", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Brute force attack", "français": "Attaque exhaustive", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Buffer", "français": "Tampon", "genre": "m", "classe": "groupe nominal"},
