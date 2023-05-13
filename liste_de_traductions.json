@@ -84,6 +84,7 @@
     {"anglais": "Downloadable Content (DLC)", "français": "Contenu Téléchargeable Additionnel (CTA)", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "DRY (Don't Repeat Yourself)", "français": "NTRP (Ne Te Répète Pas)", "classe": "proposition"},
     {"anglais": "E-mail", "français": "Courriel", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "Electronic form", "français": "Formuel", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Empowerment", "français": "Empouvoirement", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Encrypted", "français": "Chiffré", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Endianness", "français": "Boutisme", "genre": "m", "classe": "groupe nominal"},
