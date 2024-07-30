@@ -227,6 +227,7 @@
     {"anglais": "Tweet", "français": "Gazouillis", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Typosquatting", "français": "Faute de frappe opportuniste", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Underscore", "français": "Sous-tiret", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "Unwinding", "français": "Dépilage", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Upload", "français": "Téléversement", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "URL", "français": "Adresse réticulaire", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "USB key", "français": "Mémorette", "genre": "f", "classe": "groupe nominal"},
