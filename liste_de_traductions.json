@@ -153,6 +153,7 @@
     {"anglais": "Parsing", "français": "Analyse syntaxique", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Pastebin", "français": "Collodrôme", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Patch", "français": "Rustine logicielle", "genre": "f", "classe": "groupe nominal"},
+    {"anglais": "Paywall", "français": "Pare-pingre", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Perfect forward secrecy", "français": "Confidentialité persistante", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Pharming", "français": "Devoiement", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Phishing", "français": "Hameçonnage", "genre": "m", "classe": "groupe nominal"},
