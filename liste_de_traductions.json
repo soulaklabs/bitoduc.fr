@@ -242,6 +242,7 @@
     {"anglais": "Webcam", "français": "Cybercaméra", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Webmail", "français": "Portail de messagerie", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Webmaster", "français": "Webmestre", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "Webshell", "français": "Code encoquillé", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Wildcard", "français": "Joker", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Workaround", "français": "Contournement", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Wrapper", "français": "Enrobeur", "genre": "m", "classe": "groupe nominal"},
