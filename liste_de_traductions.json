@@ -151,6 +151,7 @@
     {"anglais": "Online chat", "français": "Clavardage", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Overclocking", "français": "Surcadençage", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Parsing", "français": "Analyse syntaxique", "genre": "f", "classe": "groupe nominal"},
+    {"anglais": "Pattern Matching", "français": "Filtrage par motif", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Pastebin", "français": "Collodrôme", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Patch", "français": "Rustine logicielle", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Perfect forward secrecy", "français": "Confidentialité persistante", "genre": "f", "classe": "groupe nominal"},
