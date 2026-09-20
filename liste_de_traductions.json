@@ -89,7 +89,7 @@
     {"anglais": "Encrypted", "français": "Chiffré", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Endianness", "français": "Boutisme", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Favicon", "français": "Favorimage", "genre": "f", "classe": "groupe nominal"},
-    {"anglais": "Fiber-optics", "français": "Fribronique", "genre": "f", "classe": "groupe nominal"},
+    {"anglais": "Fiber-optics", "français": "Fibronique", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Firewall", "français": "Pare-feu", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Firmware", "français": "Micrologiciel", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Fix", "français": "Correction", "genre": "f", "classe": "groupe nominal"},
