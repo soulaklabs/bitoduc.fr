@@ -124,6 +124,7 @@
     {"anglais": "Infobox", "français": "Infoboîte", "genre": "n", "classe": "groupe nominal"},
     {"anglais": "Initial Coin Offering (ICO)", "français": "Crypto-émission de titres", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Instruction pipeline", "français": "Instruoduc", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "IDE (Integrated Development Environment)", "français": "AGL (Atelier de Génie Logiciel)", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Internet of things", "français": "Internet des objets", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "JIT compiler", "français": "Compilateur à la volée", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Lazy evaluation", "français": "Évaluation paresseuse", "genre": "f", "classe": "groupe nominal"},
