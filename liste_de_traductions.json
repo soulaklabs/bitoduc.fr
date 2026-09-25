@@ -139,6 +139,7 @@
     {"anglais": "Man-in-the-middle attack (MITM)", "français": "Attaque de l’homme du milieu (HDM)", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Mapping", "français": "Correspondance", "genre": "f", "classe": "nom propre"},
     {"anglais": "Mash-up", "français": "Pot-pourriciel", "genre": "m", "classe": "groupe nominal"},
+    {"anglais": "Meat proxy", "français": "Viandataire", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Merge-request", "français": "Fusiodemande", "genre": "f", "classe": "groupe nominal"},
     {"anglais": "Middleware", "français": "Intergiciel", "genre": "m", "classe": "groupe nominal"},
     {"anglais": "Monkey-in-the-middle attack", "français": "Attaque du singe intercepteur", "genre": "f", "classe": "groupe nominal"},
